@@ -5,8 +5,7 @@ export const ecosystemBuilders: EcosystemBuilder[] = [
   {
     id: 1, // ID wajib di isi pastikan tidak duplicate ini isi ngurut aja
     name: "Adipatra Kenaro Wicaksana",
-    image:
-      "/assets/ecosystem/profile/Collaborator_Conductor_Adipatra_Kenaro_Wicaksana_(Adi).png", // ini rubah nama file nya aja
+    image: "/assets/ecosystem/profile/Collaborator_Conductor_Adipatra_Kenaro_Wicaksana_(Adi).png", // ini rubah nama file nya aja
     slug: "adipatra-kenaro-wicaksana", // ini harus unik dari ambil dari name, jika ada yang sama tambahkan -2 (misal ada 2 orang bernama singgih kartono, maka slug nya jadi singgih-kartono-2)
     roles: ["Collaborator Conductor", "Narrative Weaver dan Sensemaker"], // ini untuk EB nya jika lebih dari satu tambhakn . (misal "Community Spark Plug", "Network Weaver" )
     description:
@@ -14,9 +13,8 @@ export const ecosystemBuilders: EcosystemBuilder[] = [
   },
   {
     id: 2,
-    name: "Ajeng Masna Rifamida Maharani",
-    image:
-      "/assets/ecosystem/profile/Network_Weaver_Ajeng Masna_Rifamida_Maharani.png",
+    name: "Ajeng wati Masna Rifamida Maharani",
+    image: "/assets/ecosystem/profile/Network_Weaver_Ajeng Masna_Rifamida_Maharani.png",
     slug: "ajeng-Masnarifamida-maharani",
     roles: ["Network Weaver", "Resource Ecosystem Orchestrator"],
     description:
@@ -25,8 +23,7 @@ export const ecosystemBuilders: EcosystemBuilder[] = [
   {
     id: 3,
     name: "Alfitra Yosi Putrijaya (Yosie)",
-    image:
-      "/assets/ecosystem/profile/Community_Spark_Plug_Alfitra_Yosi_Putrijaya_(Yosie).png",
+    image: "/assets/ecosystem/profile/Community_Spark_Plug_Alfitra_Yosi_Putrijaya_(Yosie).png",
     slug: "alfitra-yosiputrijaya",
     roles: ["Community Spark Plug", "Movement Connector"],
     description:
@@ -35,8 +32,7 @@ export const ecosystemBuilders: EcosystemBuilder[] = [
   {
     id: 4,
     name: "Andika Bujang Prasetyo",
-    image:
-      "/assets/ecosystem/profile/Movement_Connector_Andika_Bujang_Prasetyo.png",
+    image: "/assets/ecosystem/profile/Movement_Connector_Andika_Bujang_Prasetyo.png",
     slug: "andika-bujang-prasetyo",
     roles: ["Movement Connector", "Narrative Weaver & Sensemaker"],
     description:
@@ -54,8 +50,7 @@ export const ecosystemBuilders: EcosystemBuilder[] = [
   {
     id: 6,
     name: "Astatantica Belly Stanio (Belly)",
-    image:
-      "/assets/ecosystem/profile/Movement_Connector_Astatantica_Belly_Stanio_(Belly).png",
+    image: "/assets/ecosystem/profile/Movement_Connector_Astatantica_Belly_Stanio_(Belly).png",
     slug: "astatantica-belly-stanio",
     roles: ["Movement Connector", "Community Spark Plug"],
     description:
@@ -64,13 +59,9 @@ export const ecosystemBuilders: EcosystemBuilder[] = [
   {
     id: 7,
     name: "Beyrra Triasdian",
-    image:
-      "/assets/ecosystem/profile/Movement_Connector_Astatantica_Belly_Stanio_(Belly).png",
+    image: "/assets/ecosystem/profile/Movement_Connector_Astatantica_Belly_Stanio_(Belly).png",
     slug: "beyrra-triasdian",
-    roles: [
-      "Resource Ecosystem Orchestrator",
-      "Narrative Weaver dan Sensemaker",
-    ],
+    roles: ["Resource Ecosystem Orchestrator", "Narrative Weaver dan Sensemaker"],
     description:
       "Beyrra Triasdian aktif terlibat dalam ekosistem energi terbarukan bersama Trend Asia, organisasi yang berfokus pada transisi energi dan penguatan gerakan menuju energi terbarukan yang berkeadilan. Dalam ekosistem ini, ia terlibat dalam penguatan Community Independent Power Producer (CIPP) sebagai wadah komunitas tapak dan RE-Agent sebagai ruang pembelajaran orang muda. Ekosistem ini menghubungkan komunitas berdaya energi terbarukan dari berbagai wilayah Indonesia.Mempertemukan komunitas melalui pertemuan dwi-tahunan, mengagendakan kegiatan bersama, serta membuka ruang agar anggota dapat saling berbagi pengetahuan, pengalaman, dan tantangan. Dalam CIPP, pertukaran lesson learned dan peer-to-peer learning membantu komunitas saling memanfaatkan pengetahuan dan kapasitas yang telah dimiliki. Praktiknya terlihat ketika komunitas dapat saling membantu menangani kerusakan atau kebutuhan perbaikan alat, hingga membicarakan dan menentukan prioritas pendanaan secara kolektif.\n\nBeyrra juga terlibat dalam menjadikan pengalaman komunitas sebagai pembelajaran dan pengetahuan bersama. CIPP sedang menyiapkan platform sebagai wadah pembelajaran, berbagi pengalaman, dan partisipasi publik untuk mendokumentasikan proses, tantangan, pembelajaran, serta refleksi dari pengalaman di lapangan. Sementara itu, RE-Agent telah memiliki media sosial untuk membagikan cerita pendidikan, pengalaman belajar dari komunitas, dan pengetahuan yang diperoleh selama proses pendampingan. Dari ruang-ruang tersebut, pengalaman komunitas tapak dan perspektif orang muda dapat saling bertemu dan membentuk pemahaman bersama bahwa transisi energi bukan hanya persoalan teknologi, tetapi juga menyangkut keadilan, kemandirian, dan keterlibatan masyarakat dalam menentukan masa depannya. Bagi Beyrra, ekosistem menjadi lebih kuat ketika komunitas dapat menjadi sumber pengetahuan dan penggerak, sementara orang muda membawa pembelajaran tersebut ke ruang pendidikan dan publik. Kolaborasi kemudian tumbuh dari pertemuan berbagai kapasitas dan pengalaman yang berangkat dari kebutuhan komunitas.",
   },
@@ -95,8 +86,7 @@ export const ecosystemBuilders: EcosystemBuilder[] = [
   {
     id: 10,
     name: "Febri Sastiviani Putri Cantika (Uti)",
-    image:
-      "/assets/ecosystem/profile/Adaptive_Ecosystem_Leader_Febri_Sastiviani_Putri_Cantika_(Uti).png",
+    image: "/assets/ecosystem/profile/Adaptive_Ecosystem_Leader_Febri_Sastiviani_Putri_Cantika_(Uti).png",
     slug: "febri-sastiviani-putri-cantika-uti",
     roles: ["Adaptive Ecosystem Leader", "Narrative Weaver", "Sensemaker"],
     description:
@@ -114,8 +104,7 @@ export const ecosystemBuilders: EcosystemBuilder[] = [
   {
     id: 12,
     name: "Gustaff H. Iskandar",
-    image:
-      "/assets/ecosystem/profile/Adaptive_Ecosystem_Leader_Gustaff_H._Iskandar.png",
+    image: "/assets/ecosystem/profile/Adaptive_Ecosystem_Leader_Gustaff_H._Iskandar.png",
     slug: "gustaff-h-iskandar",
     roles: ["Adaptive Ecosystem Leader", "Network Weaver"],
     description:
@@ -124,8 +113,7 @@ export const ecosystemBuilders: EcosystemBuilder[] = [
   {
     id: 13,
     name: "Hapsah Nur Hapsari",
-    image:
-      "/assets/ecosystem/profile/Community_Spark_Plug_Hapsah_Nur_Hapsari.png",
+    image: "/assets/ecosystem/profile/Community_Spark_Plug_Hapsah_Nur_Hapsari.png",
     slug: "hapsah-nur-hapsari",
     roles: ["Community Spark Plug"],
     description:
@@ -134,8 +122,7 @@ export const ecosystemBuilders: EcosystemBuilder[] = [
   {
     id: 14,
     name: "Indriyatno Banyumurti (IB)",
-    image:
-      "/assets/ecosystem/profile/Adaptive_Ecosystem_Leader_Indriyatno_Banyumurti_(IB).png",
+    image: "/assets/ecosystem/profile/Adaptive_Ecosystem_Leader_Indriyatno_Banyumurti_(IB).png",
     slug: "indriyatno-banyumurti-ib",
     roles: ["Adaptive Ecosystem Leader", "Network Weaver"],
     description:
@@ -144,8 +131,7 @@ export const ecosystemBuilders: EcosystemBuilder[] = [
   {
     id: 15,
     name: "Istini Anggoro (Isti)",
-    image:
-      "/assets/ecosystem/profile/Community_Spark_Plug_Istini_Anggoro_(Isti).png",
+    image: "/assets/ecosystem/profile/Community_Spark_Plug_Istini_Anggoro_(Isti).png",
     slug: "istini-anggoro-isti",
     roles: ["Community Spark Plug", "Network Weaver"],
     description:
@@ -172,8 +158,7 @@ export const ecosystemBuilders: EcosystemBuilder[] = [
   {
     id: 18,
     name: "Julian Riezki Pratama (Juli Berskema)",
-    image:
-      "/assets/ecosystem/profile/Community_Spark_Plug_Julian_Riezki_Pratama_(Juli Berskema).png",
+    image: "/assets/ecosystem/profile/Community_Spark_Plug_Julian_Riezki_Pratama_(Juli Berskema).png",
     slug: "julian-riezki-pratama-juli-berskema",
     roles: ["Community Spark Plug", "Resource Ecosystem Orchestrator"],
     description:
@@ -182,8 +167,7 @@ export const ecosystemBuilders: EcosystemBuilder[] = [
   {
     id: 19,
     name: "Kinanti Munggareni (Kimung)",
-    image:
-      "/assets/ecosystem/profile/Narrative_Weaver_Kinanti_Munggareni_(Kimung).png",
+    image: "/assets/ecosystem/profile/Narrative_Weaver_Kinanti_Munggareni_(Kimung).png",
     slug: "kinanti-munggareni-kimung",
     roles: ["Narrative Weaver & Sensemaker", "Network Weaver"],
     description:
@@ -201,8 +185,7 @@ export const ecosystemBuilders: EcosystemBuilder[] = [
   {
     id: 21,
     name: "Meilani Putri Winingsih (Imel)",
-    image:
-      "/assets/ecosystem/profile/Network_Weaver_Meilani_Putri_Winingsih_(Imel).png",
+    image: "/assets/ecosystem/profile/Network_Weaver_Meilani_Putri_Winingsih_(Imel).png",
     slug: "meilani-putri-winingsih-imel",
     roles: ["Network Weaver", "Narrative Weaver & Sensemaker"],
     description:
@@ -211,8 +194,7 @@ export const ecosystemBuilders: EcosystemBuilder[] = [
   {
     id: 22,
     name: "Mohammad Gatot Pringgotono (MG)",
-    image:
-      "/assets/ecosystem/profile/Network_Weaver_Mohammad_Gatot_Pringgotono_(MG).png",
+    image: "/assets/ecosystem/profile/Network_Weaver_Mohammad_Gatot_Pringgotono_(MG).png",
     slug: "mohammad-gatot-pringgotono-mg",
     roles: ["Network Weaver", "Wellbeing Caregiver"],
     description:
@@ -221,8 +203,7 @@ export const ecosystemBuilders: EcosystemBuilder[] = [
   {
     id: 23,
     name: "Muhammad Hermayani Putera (Herma)",
-    image:
-      "/assets/ecosystem/profile/Network_Weaver_Muhammad_Hermayani_Putera_(Herma).png",
+    image: "/assets/ecosystem/profile/Network_Weaver_Muhammad_Hermayani_Putera_(Herma).png",
     slug: "muhammad-hermayani-putera-herma",
     roles: ["Network Weaver", "Resource Ecosystem Orchestrator"],
     description:
@@ -231,8 +212,7 @@ export const ecosystemBuilders: EcosystemBuilder[] = [
   {
     id: 24,
     name: "Muhammad Ichlassul Amal (Amal)",
-    image:
-      "/assets/ecosystem/profile/Network_Weaver_Muhammad_Ichlassul_Amal_(Amal).png",
+    image: "/assets/ecosystem/profile/Network_Weaver_Muhammad_Ichlassul_Amal_(Amal).png",
     slug: "muhammad-ichlassul-amal-amal",
     roles: ["Network Weaver", "Movement Connector"],
     description:
@@ -250,8 +230,7 @@ export const ecosystemBuilders: EcosystemBuilder[] = [
   {
     id: 26,
     name: "Nenden Sekar Arum",
-    image:
-      "/assets/ecosystem/profile/Adaptive_Ecosystem_Leader_Nenden_Sekar_Arum.png",
+    image: "/assets/ecosystem/profile/Adaptive_Ecosystem_Leader_Nenden_Sekar_Arum.png",
     slug: "nenden-sekar-arum",
     roles: ["Adaptive Ecosystem Leader", "Network Weaver"],
     description:
@@ -269,8 +248,7 @@ export const ecosystemBuilders: EcosystemBuilder[] = [
   {
     id: 28,
     name: "Paksi Lalang Sambegana",
-    image:
-      "/assets/ecosystem/profile/Network_Weaver_Paksi_Lalang_Sambegana.png",
+    image: "/assets/ecosystem/profile/Network_Weaver_Paksi_Lalang_Sambegana.png",
     slug: "paksi-lalang-sambegana",
     roles: ["Network Weaver", "Community Spark Plug"],
     description:
@@ -279,8 +257,7 @@ export const ecosystemBuilders: EcosystemBuilder[] = [
   {
     id: 29,
     name: "Pri Anton Subardio (Anton)",
-    image:
-      "/assets/ecosystem/profile/Network_Weaver_Pri_Anton_Subardio_(Anton).png",
+    image: "/assets/ecosystem/profile/Network_Weaver_Pri_Anton_Subardio_(Anton).png",
     slug: "pri-anton-subardio-anton",
     roles: ["Network Weaver", "Collaborator Conductor"],
     description:
@@ -298,8 +275,7 @@ export const ecosystemBuilders: EcosystemBuilder[] = [
   {
     id: 31,
     name: "Ratna Hartiningtyas (Ratna Hartien)",
-    image:
-      "/assets/ecosystem/profile/Resource_Ecosystem_Orchestrator_Ratna_Hartiningtyas_(Ratna_Hartien).png",
+    image: "/assets/ecosystem/profile/Resource_Ecosystem_Orchestrator_Ratna_Hartiningtyas_(Ratna_Hartien).png",
     slug: "ratna-hartiningtyas-ratna-hartien",
     roles: ["Resource Ecosystem Orchestrator"],
     description:
@@ -326,8 +302,7 @@ export const ecosystemBuilders: EcosystemBuilder[] = [
   {
     id: 34,
     name: "Shendy Ristandi",
-    image:
-      "/assets/ecosystem/profile/Collaborator_Conductor_Shendy_Ristandi.png",
+    image: "/assets/ecosystem/profile/Collaborator_Conductor_Shendy_Ristandi.png",
     slug: "shendy-ristandi",
     roles: ["Collaborator Conductor", "Community Spark Plug"],
     description:
@@ -336,8 +311,7 @@ export const ecosystemBuilders: EcosystemBuilder[] = [
   {
     id: 35,
     name: "Syafira Putri",
-    image:
-      "/assets/ecosystem/profile/Resource_Ecosystem_Orchestrator_Syafira_Putri.png",
+    image: "/assets/ecosystem/profile/Resource_Ecosystem_Orchestrator_Syafira_Putri.png",
     slug: "syafira-putri",
     roles: ["Resource Ecosystem Orchestrator", "Network Weaver"],
     description:
@@ -355,8 +329,7 @@ export const ecosystemBuilders: EcosystemBuilder[] = [
   {
     id: 37,
     name: "Theresia Eko Setyowati (Eko)",
-    image:
-      "/assets/ecosystem/profile/Community_Spark_Plug_Theresia_Eko_Setyowati_(Eko).png",
+    image: "/assets/ecosystem/profile/Community_Spark_Plug_Theresia_Eko_Setyowati_(Eko).png",
     slug: "theresia-eko-setyowati-eko",
     roles: ["Community Spark Plug", "Wellbeing Caregiver"],
     description:
@@ -365,8 +338,7 @@ export const ecosystemBuilders: EcosystemBuilder[] = [
   {
     id: 38,
     name: "Tisha Amelia Anwar",
-    image:
-      "/assets/ecosystem/profile/Movement_Connector_Tisha_Amelia_Anwar.png",
+    image: "/assets/ecosystem/profile/Movement_Connector_Tisha_Amelia_Anwar.png",
     slug: "tisha-amelia-anwar",
     roles: ["Movement Connector", "Narrative Weaver & Sensemaker"],
     description:
@@ -393,8 +365,7 @@ export const ecosystemBuilders: EcosystemBuilder[] = [
   {
     id: 41,
     name: "Yohanes Daris Adibrata (JJ Adibrata)",
-    image:
-      "/assets/ecosystem/profile/Network_Weaver_Yohanes_Daris_Adibrata_(JJ Adibrata).png",
+    image: "/assets/ecosystem/profile/Network_Weaver_Yohanes_Daris_Adibrata_(JJ Adibrata).png",
     slug: "yohanes-daris-adibrata-jj-adibrata",
     roles: ["Network Weaver"],
     description:
@@ -402,8 +373,6 @@ export const ecosystemBuilders: EcosystemBuilder[] = [
   },
 ];
 
-export function getEcosystemBuilderBySlug(
-  slug: string,
-): EcosystemBuilder | undefined {
+export function getEcosystemBuilderBySlug(slug: string): EcosystemBuilder | undefined {
   return ecosystemBuilders.find((builder) => builder.slug === slug);
 }
