@@ -374,7 +374,7 @@ export const ecosystemBuilders: EcosystemBuilder[] = [
   {
     id: 42,
     name: "Sita Supomo",
-    image: "/assets/ecosystem/profile/Network_Weaver_Narrative_Weaver_Sensemaker_Sita_Supomo.png",
+    image: "/assets/ecosystem/profile/Network_Weaver_Sita_Supomo.png",
     slug: "sita-supomo",
     roles: ["Network Weaver", "Narrative Weaver & Sensemaker"],
     description:
@@ -383,7 +383,7 @@ export const ecosystemBuilders: EcosystemBuilder[] = [
   {
     id: 43,
     name: "Fitrianti Sofyan (Tia)",
-    image: "/assets/ecosystem/profile/Movement_Connector_Narrative_Weaver_Sensemaker_Fitrianti_Sofyan_(Tia).png",
+    image: "/assets/ecosystem/profile/Movement_Connector_Fitrianti_Sofyan_(Tia).png",
     slug: "fitrianti-sofyan-tia",
     roles: ["Movement Connector", "Narrative Weaver & Sensemaker"],
     description:
@@ -392,7 +392,7 @@ export const ecosystemBuilders: EcosystemBuilder[] = [
   {
     id: 44,
     name: "Frendy Kurniawan",
-    image: "/assets/ecosystem/profile/Network_Weaver_Wellbeing_Caregiver_Frendy_Kurniawan.png",
+    image: "/assets/ecosystem/profile/Network_Weaver_Frendy_Kurniawan.png",
     slug: "frendy-kurniawan",
     roles: ["Network Weaver", "Wellbeing Caregiver"],
     description:
@@ -401,7 +401,7 @@ export const ecosystemBuilders: EcosystemBuilder[] = [
   {
     id: 45,
     name: "Marsya Nurmaranti (Asa)",
-    image: "/assets/ecosystem/profile/Adaptive_Ecosystem_Leader_Network_Weaver_Marsya_Nurmaranti_(Asa).png",
+    image: "/assets/ecosystem/profile/Adaptive_Ecosystem_Leader_Marsya_Nurmaranti_(Asa).png",
     slug: "marsya-nurmaranti-asa",
     roles: ["Adaptive Ecosystem Leader", "Network Weaver"],
     description:
