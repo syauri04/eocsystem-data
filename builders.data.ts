@@ -239,7 +239,7 @@ export const ecosystemBuilders: EcosystemBuilder[] = [
   {
     id: 27,
     name: "Nova Ruth Setyaningtyas",
-    image: "/assets/ecosystem/profile/Nova Ruth Setyaningtyas.png",
+    image: "/assets/ecosystem/profile/Adaptive_Ecosystem_Nova_Ruth_Setyaningtyas.png",
     slug: "nova-ruth-setyaningtyas",
     roles: ["Adaptive Ecosystem Leader", "Wellbeing Caregiver"],
     description:
@@ -266,7 +266,7 @@ export const ecosystemBuilders: EcosystemBuilder[] = [
   {
     id: 30,
     name: "Rassi Narika",
-    image: "/assets/ecosystem/profile/Rassi Narika.png",
+    image: "/assets/ecosystem/profile/Adaptive_Ecosystem_Rassi_Narika.png",
     slug: "rassi-narika",
     roles: ["Adaptive Ecosystem Leader", "Narrative Weaver & Sensemaker"],
     description:
@@ -284,7 +284,7 @@ export const ecosystemBuilders: EcosystemBuilder[] = [
   {
     id: 32,
     name: "Rian Pramana Suwanda",
-    image: "/assets/ecosystem/profile/Rian Pramana Suwanda.png",
+    image: "/assets/ecosystem/profile/Adaptive_Ecosystem_Rian_Pramana_Suwanda.png",
     slug: "rian-pramana-suwanda",
     roles: ["Adaptive Ecosystem Leader", "Collaborator Conductor"],
     description:
@@ -320,7 +320,7 @@ export const ecosystemBuilders: EcosystemBuilder[] = [
   {
     id: 36,
     name: "Syekhoh Sultonah",
-    image: "/assets/ecosystem/profile/Syekhoh Sultonah.png",
+    image: "/assets/ecosystem/profile/Adaptive_Ecosystem_Syekhoh_Sultonah.png",
     slug: "syekhoh-sultonah",
     roles: ["Adaptive Ecosystem Leader", "Network Weaver"],
     description:
