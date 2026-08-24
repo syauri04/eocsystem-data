@@ -13,7 +13,7 @@ export const ecosystemBuilders: EcosystemBuilder[] = [
   },
   {
     id: 2,
-    name: "Ajeng wati Masna Rifamida Maharani",
+    name: "Ajeng Masna Rifamida Maharani",
     image: "/assets/ecosystem/profile/Network_Weaver_Ajeng Masna_Rifamida_Maharani.png",
     slug: "ajeng-Masnarifamida-maharani",
     roles: ["Network Weaver", "Resource Ecosystem Orchestrator"],
