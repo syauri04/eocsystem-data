@@ -59,7 +59,7 @@ export const ecosystemBuilders: EcosystemBuilder[] = [
   {
     id: 7,
     name: "Beyrra Triasdian",
-    image: "/assets/ecosystem/profile/Movement_Connector_Astatantica_Belly_Stanio_(Belly).png",
+    image: "/assets/ecosystem/profile/Resource_Ecosystem_Orchestrator_ Beyrra Triasdian.png",
     slug: "beyrra-triasdian",
     roles: ["Resource Ecosystem Orchestrator", "Narrative Weaver dan Sensemaker"],
     description:
@@ -392,7 +392,7 @@ export const ecosystemBuilders: EcosystemBuilder[] = [
   {
     id: 44,
     name: "Frendy Kurniawan",
-    image: "/assets/ecosystem/profile/Network_Weaver_Frendy_Kurniawan.png",
+    image: "/assets/ecosystem/profile/Community_Spark_Plug_Frendy_Kurniawan.png",
     slug: "frendy-kurniawan",
     roles: ["Network Weaver", "Wellbeing Caregiver"],
     description:
