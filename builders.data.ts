@@ -1,0 +1,409 @@
+import type { EcosystemBuilder } from "./EcosystemBuilderCard";
+
+// Placeholder roster -- swap in the real builder list, photos, and bios when ready.
+export const ecosystemBuilders: EcosystemBuilder[] = [
+  {
+    id: 1, // ID wajib di isi pastikan tidak duplicate ini isi ngurut aja
+    name: "Adipatra Kenaro Wicaksana",
+    image:
+      "/assets/ecosystem/profile/Collaborator_Conductor_Adipatra_Kenaro_Wicaksana_(Adi).png", // ini rubah nama file nya aja
+    slug: "adipatra-kenaro-wicaksana", // ini harus unik dari ambil dari name, jika ada yang sama tambahkan -2 (misal ada 2 orang bernama singgih kartono, maka slug nya jadi singgih-kartono-2)
+    roles: ["Collaborator Conductor", "Narrative Weaver dan Sensemaker"], // ini untuk EB nya jika lebih dari satu tambhakn . (misal "Community Spark Plug", "Network Weaver" )
+    description:
+      "Adipatra Kenaro Wicaksana aktif berkolaborasi lintas sektor melalui Pusat Kajian Sumber Daya Pesisir & Laut (PKSPL) IPB University, dengan pengalaman di berbagai wilayah pesisir dan pulau terluar Indonesia, termasuk wilayah-wilayah pesisir dan desa terpencil di berbagai daerah. Pengalaman tersebut dijalani melalui berbagai pekerjaan yang berkaitan dengan kajian dan penyusunan dokumen lingkungan, sekaligus pemantauan kondisi sosial masyarakat di wilayah terdampak. Dalam prosesnya ini ia terlibat dalam pembuatan dokumen Environmental Baseline Assessment (EBA), AMDAL, dan UKL-UPL, serta berinteraksi langsung dengan masyarakat, pemerintah, akademisi, sektor swasta, tenaga kesehatan, dan kelompok rentan melalui wawancara, FGD, dan observasi lapangan.\n\nSebagai Collaborator Conductor, Adi memfasilitasi diskusi berbasis data sekaligus memastikan setiap pihak memiliki ruang yang setara untuk menyampaikan pandangan dan pengalamannya. Proses tersebut diarahkan untuk menemukan titik temu dan menghasilkan rekomendasi yang dapat diterima serta ditindaklanjuti bersama. Ia juga mendokumentasikan setiap proses melalui laporan teknis, presentasi, artikel, dan refleksi, sehingga pembelajaran dari keberhasilan maupun tantangan dapat menjadi pijakan untuk pekerjaan berikutnya.\n\nBaginya, sebuah ekosistem kolaborasi akan berjalan ketika setiap pihak membawa kekuatan yang berbeda dan saling melengkapi. Masyarakat hingga pemerintah lokal menyumbangkan pengalaman serta pengetahuan lapangan mulai dari akademisi dan tenaga ahli memperkuat data dan analisis; sementara sektor lainnya membantu menerjemahkan temuan tersebut menjadi keputusan, program, dan tindak lanjut yang konkret. Keterhubungan antara pihak inilah yang menurutnya menjadi fondasi kepercayaan sekaligus menjaga agar kolaborasi tidak berhenti pada satu proyek, tetapi dapat terus berkembang dan menghasilkan dampak yang berlanjut. ",
+  },
+  {
+    id: 2,
+    name: "Ajeng Masna Rifamida Maharani",
+    image:
+      "/assets/ecosystem/profile/Network_Weaver_Ajeng Masna_Rifamida_Maharani.png",
+    slug: "ajeng-Masnarifamida-maharani",
+    roles: ["Network Weaver", "Resource Ecosystem Orchestrator"],
+    description:
+      "Ajeng Maharani berkiprah di Koalisi Ekonomi Membumi (KEM), sebuah gerakan kolektif percepatan Bioekonomi yang Bertanggung Jawab sebagai Solusi Ekonomi dan Perubahan Iklim Indonesia 2045 yang mendorong pertumbuhan ekosistem investasi berkelanjutan dengan mengedepankan kearifan lokal Indonesia. KEM menjangkau berbagai wilayah di Indonesia, termasuk Kalimantan Barat, Sorong, Sulawesi Tengah, Kupang, dan Manggarai Barat. KEM mempertemukan pelaku usaha, investor, organisasi masyarakat sipil, pemerintah, akademisi, dan mitra pembangunan melalui ruang dialog, pembelajaran, dan kolaborasi.\n\nBagi Ajeng, ekosistem tumbuh ketika setiap pihak dapat mengenali kebutuhan dan kekuatan satu sama lain, lalu saling membuka akses, berbagi pengetahuan, pengalaman, jejaring, peluang, maupun ruang belajar. Karena itu, ia aktif melakukan matchmaking, menyebarkan informasi yang relevan, dan menciptakan ruang agar anggota dapat saling terhubung dan mengambil peran dalam agenda bersama. \n\nPendekatan tersebut terlihat dalam pengembangan Learning Nest, yang menjadi ruang pembelajaran sekaligus tempat menghimpun dan mengoptimalkan berbagai sumber daya yang dimiliki anggota, seperti kapasitas SDM, pengetahuan, produk komunikasi, dan pengalaman. Bagi Ajeng, anggota tidak hanya menjadi penerima manfaat, tetapi juga dapat menjadi sumber daya bagi anggota lain sesuai kapasitasnya. Cara pandang ini memungkinkan peran yang berbeda dalam ekosistem saling melengkapi: ada yang membawa pengetahuan dan pengalaman, membuka peluang dan akses, mempertemukan pihak yang tepat, atau menyediakan ruang untuk belajar dan berkolaborasi. Melalui hubungan yang saling mendukung tersebut, KEM berupaya menjaga agar kolaborasi tidak berhenti pada satu kegiatan, tetapi terus berkembang menjadi jejaring yang lebih kuat dan berkelanjutan.",
+  },
+  {
+    id: 3,
+    name: "Alfitra Yosi Putrijaya (Yosie)",
+    image:
+      "/assets/ecosystem/profile/Community_Spark_Plug_Alfitra_Yosi_Putrijaya_(Yosie).png",
+    slug: "alfitra-yosiputrijaya",
+    roles: ["Community Spark Plug", "Movement Connector"],
+    description:
+      "Alfitra Yosi Putrijaya aktif dalam kerja-kerja Pusat Rehabilitasi YAKKUM, RILIS (Religious Leader Innovative Summit), dan GARDA LIMA (Gerakan Advokasi Difabel Lintas Iman) di Yogyakarta dan Jakarta, dengan kerja ekosistem yang membawa isu pemenuhan hak difabel dalam konteks Indonesia, dengan fokus pada pemenuhan hak difabel dan pengurangan stigma melalui pendekatan tokoh agama lintas iman, termasuk penghayat kepercayaan. Ia memulai dengan mengidentifikasi persoalan difabel dalam konteks nasional maupun global, kemudian membawanya ke ruang diskusi komunitas dan lintas komunitas melalui banyak bertanya, menggali persoalan secara lebih spesifik, serta memetakan kekuatan dan sumber daya yang dimiliki masing-masing pihak. Dari proses tersebut, ia memantik munculnya ide dan gerakan, termasuk mendorong isu difabel masuk ke ruang keagamaan melalui GARDA LIMA. Salah satu hasil advokasi bersama para jaringannya adalah Fiqih Disabilitas Psikososial. \n\nBagi Yossie, gerakan akan tumbuh ketika orang-orang yang memiliki keresahan dan kepedulian yang sama dapat saling menemukan dan mengambil peran sesuai kekuatannya. Ia melihat organisasi keagamaan memiliki basis massa yang kuat untuk mendorong perubahan di akar rumput, sementara lembaga seperti Komisi Nasional Disabilitas memiliki jejaring yang dapat membantu membuka jalan menuju perubahan kebijakan. Pihak lain dapat berkontribusi melalui pengetahuan, akses, dukungan sumber daya, maupun ruang untuk memperluas isu. Karena itu, ia berupaya menghubungkan aktor-aktor tersebut bukan sekadar berdasarkan posisi atau akses yang dimiliki, tetapi juga berdasarkan kepedulian terhadap isu. Menurutnya, ekosistem tidak dapat berjalan sendiri dan tidak membutuhkan satu pihak untuk menjadi yang paling menonjol; kekuatan justru muncul ketika berbagai peran saling terhubung dan bergerak menuju tujuan yang sama.",
+  },
+  {
+    id: 4,
+    name: "Andika Bujang Prasetyo",
+    image:
+      "/assets/ecosystem/profile/Movement_Connector_Andika_Bujang_Prasetyo.png",
+    slug: "andika-bujang-prasetyo",
+    roles: ["Movement Connector", "Narrative Weaver & Sensemaker"],
+    description:
+      "Andika Bujang Prasetyo berkiprah di gerakan masyarakat sipil di Sidoarjo–Surabaya, Jawa Timur, dengan kerja advokasi yang menjangkau beberapa kecamatan di Kabupaten Sidoarjo, dengan fokus pada advokasi struktural untuk memperjuangkan hak-hak petani tambak yang terdampak banjir rob. Dalam kerja gerakan, ia menghubungkan keresahan di tingkat akar rumput dengan komunitas, NGO, jurnalis, dan pihak lain yang memiliki perhatian pada isu serupa. Ia memetakan persoalan di lapangan menjadi narasi yang dapat disuarakan melalui media, sekaligus membangun lingkaran kawan strategis dan taktis dengan pembagian peran yang jelas. Bagi Andika, gerakan menjadi lebih kuat ketika berbagai pihak tidak saling mendominasi, tetapi berbagi daya berdasarkan kesamaan nilai dan visi.\n\nBagi Andika, kekuatan ekosistem terletak pada keterhubungan antara pihak dan kemampuan untuk saling melengkapi. Mereka yang bekerja langsung bersama masyarakat membawa pengalaman lapangan, sementara pihak lain dapat memperkuat pengetahuan, membuka akses, menguatkan kampanye, atau menyediakan sumber daya yang dibutuhkan gerakan. Karena itu, pengalaman dan pengetahuan perlu terus dibagikan melalui tulisan maupun forum agar tidak berhenti pada individu. Cara pandang ini tercermin dalam kolaborasinya dengan YLBHI-LBH Surabaya, LKBH Umsida, WALHI Jawa Timur, Arkom Jawa Timur, dan Roemah Inspirit melalui Kolaboraya. Bagi Andika, keberagaman peran tersebut seperti sebuah orkestra: setiap komponen memiliki fungsi berbeda, tetapi saling mendukung untuk menciptakan satu gerakan yang lebih kuat.",
+  },
+  {
+    id: 5,
+    name: "Aris Munandar ",
+    image: "/assets/ecosystem/profile/Community_Spark_Plug_Aris_Munandar.png",
+    slug: "aris-munandar ",
+    roles: ["Community Spark Plug", "Network Weaver"],
+    description:
+      "Aris Munandar aktif di Gerakan Advokasi Difabel Lintas Iman (GARDA LIMA) dan tahun ini akan memperluas jangkauan dengan mengadakan Religious Leaders Innovative Summit (RILIS) melalui Pusat Rehabilitasi YAKKUM di Daerah Istimewa Yogyakarta, dengan jejaring kerja yang terhubung dengan pemuka agama dan organisasi keagamaan di tingkat nasional, yang berfokus pada penerimaan difabel di ranah spiritual serta pemenuhan hak penyandang disabilitas. Ia membangun dan memperluas jejaring dengan pemuka agama, komunitas agama, dan penghayat kepercayaan dengan membawa persoalan difabel, data, serta sumber daya yang tersedia ke dalam ruang diskusi. Ia juga mendorong pemahaman bahwa setiap orang dekat dan berisiko menjadi difabel. Proses ini telah melibatkan tujuh perwakilan pemuka dan komunitas agama serta penghayat kepercayaan dalam GARDA LIMA dan RILIS yang akan datang, serta diwujudkan melalui pertemuan dan forum yang mempertemukan difabel maupun pegiat lokal dengan berbagai komunitas keagamaan.\n\nBagi Aris, jejaring dibangun melalui komunikasi dan ruang pertemuan yang memungkinkan berbagai pihak memahami isu difabel dan menemukan ruang untuk terlibat. Ia melihat kekuatan ekosistem tumbuh dari kontribusi yang berbeda: Komisi Nasional Disabilitas (KND) dan PBNU mendukung finalisasi Fikih Disabilitas Mental Psikososial yang kemudian menjadi rujukan, sementara PGI menyuarakan isu melalui Konsultasi Nasional (KONAS) “Gereja dan Disabilitas”. Dukungan juga datang dari berbagai organisasi keagamaan yang terlibat dalam Deklarasi Lombok Bersama YAKKUM. Pada tingkat lokal Yogyakarta forum-forum lokal cukup intens diadakan guna mempertemukan lintas komunitas. Aris percaya bahwa keterhubungan berbagai pihak ini penting agar isu difabel dapat dibicarakan dan diperkuat dari beragam ruang, sementara tantangan ke depan adalah memperluas keterlibatan yang lahir dari kepedulian, bukan hanya karena kebutuhan program.",
+  },
+  {
+    id: 6,
+    name: "Astatantica Belly Stanio (Belly)",
+    image:
+      "/assets/ecosystem/profile/Movement_Connector_Astatantica_Belly_Stanio_(Belly).png",
+    slug: "astatantica-belly-stanio",
+    roles: ["Movement Connector", "Community Spark Plug"],
+    description:
+      "Astatantica Belly Stanio aktif di Lembaga Bantuan Hukum (LBH) Jakarta untuk menghubungkan gerakan bantuan hukum dalam melindungi dan memperkuat ruang sipil di Indonesia. Ia mengorganisir komunitas melalui strategi paralegal komunitas, yang menjadi cara untuk menghubungkan kebutuhan dan keresahan di tingkat komunitas dengan kerja bantuan hukum yang lebih luas. Bagi Belly, proses ini penting untuk memantik komunitas agar tidak hanya menerima pendampingan, tetapi juga aktif dalam kegiatan LBH Jakarta maupun kegiatan jaringan. Salah satu tanda bahwa proses tersebut berjalan adalah tumbuhnya solidaritas antarkomunitas dampingan lintas isu. \n\nBagi Belly, gerakan menjadi lebih kuat ketika komunitas tidak berjalan sendiri, tetapi saling terhubung melalui solidaritas dan dukungan yang dapat memperkuat perjuangan masing-masing. Dalam kerja bantuan hukum, ia melihat kebutuhan akan berbagai bentuk dukungan. Mulai dari kapasitas dan pengetahuan, ruang serta infrastruktur, hingga sumber daya yang memungkinkan gerakan terus berjalan. Isian Belly menunjukkan bahwa seluruh unsur tersebut dinilai penting bagi ekosistem, terutama dukungan infrastruktur dan ruang, sumber daya, serta pengetahuan yang masing-masing ia nilai sangat menentukan. Karena itu, ia ingin memperluas jejaring untuk membangun ekosistem bantuan hukum yang dapat bersama-sama melindungi dan mengembangkan ruang sipil, terutama di tengah keterbatasan penyedia bantuan hukum yang membuat LBH Jakarta perlu bekerja lebih keras.",
+  },
+  {
+    id: 7,
+    name: "Beyrra Triasdian",
+    image:
+      "/assets/ecosystem/profile/Movement_Connector_Astatantica_Belly_Stanio_(Belly).png",
+    slug: "beyrra-triasdian",
+    roles: [
+      "Resource Ecosystem Orchestrator",
+      "Narrative Weaver dan Sensemaker",
+    ],
+    description:
+      "Beyrra Triasdian aktif terlibat dalam ekosistem energi terbarukan bersama Trend Asia, organisasi yang berfokus pada transisi energi dan penguatan gerakan menuju energi terbarukan yang berkeadilan. Dalam ekosistem ini, ia terlibat dalam penguatan Community Independent Power Producer (CIPP) sebagai wadah komunitas tapak dan RE-Agent sebagai ruang pembelajaran orang muda. Ekosistem ini menghubungkan komunitas berdaya energi terbarukan dari berbagai wilayah Indonesia.Mempertemukan komunitas melalui pertemuan dwi-tahunan, mengagendakan kegiatan bersama, serta membuka ruang agar anggota dapat saling berbagi pengetahuan, pengalaman, dan tantangan. Dalam CIPP, pertukaran lesson learned dan peer-to-peer learning membantu komunitas saling memanfaatkan pengetahuan dan kapasitas yang telah dimiliki. Praktiknya terlihat ketika komunitas dapat saling membantu menangani kerusakan atau kebutuhan perbaikan alat, hingga membicarakan dan menentukan prioritas pendanaan secara kolektif.\n\nBeyrra juga terlibat dalam menjadikan pengalaman komunitas sebagai pembelajaran dan pengetahuan bersama. CIPP sedang menyiapkan platform sebagai wadah pembelajaran, berbagi pengalaman, dan partisipasi publik untuk mendokumentasikan proses, tantangan, pembelajaran, serta refleksi dari pengalaman di lapangan. Sementara itu, RE-Agent telah memiliki media sosial untuk membagikan cerita pendidikan, pengalaman belajar dari komunitas, dan pengetahuan yang diperoleh selama proses pendampingan. Dari ruang-ruang tersebut, pengalaman komunitas tapak dan perspektif orang muda dapat saling bertemu dan membentuk pemahaman bersama bahwa transisi energi bukan hanya persoalan teknologi, tetapi juga menyangkut keadilan, kemandirian, dan keterlibatan masyarakat dalam menentukan masa depannya. Bagi Beyrra, ekosistem menjadi lebih kuat ketika komunitas dapat menjadi sumber pengetahuan dan penggerak, sementara orang muda membawa pembelajaran tersebut ke ruang pendidikan dan publik. Kolaborasi kemudian tumbuh dari pertemuan berbagai kapasitas dan pengalaman yang berangkat dari kebutuhan komunitas.",
+  },
+  {
+    id: 8,
+    name: "Dharma Setyawan",
+    image: "/assets/ecosystem/profile/Community_Spark_Plug_Dharma_Setyawan.png",
+    slug: "dharma-setyawan",
+    roles: ["Community Spark Plug", "Resource Ecosystem Orchestrator"],
+    description:
+      "Dharma Setyawan menjadi bagian dari Payungi (Pasar Yosomulyo Pelangi) di Metro, Lampung, sebuah gerakan pemberdayaan ekonomi masyarakat yang bermula dari pasar kuliner tradisional dan kemudian berkembang menjadi ruang pendidikan transformatif. Ia turut memantik proses awal Payungi melalui inisiatif pasar kuliner dengan meminjam kas masjid, yang kemudian tumbuh menjadi ekosistem dengan berbagai kegiatan seperti Sekolah Desa, Women & Environment Studies, Sekolah Seni Payungi, Disabilitas Corner Payungi, Pesantren Wirausaha, perpustakaan, dan homestay warga. Semangat kolektif dijaga melalui pertemuan rutin, gotong royong, serta berbagai bentuk tabungan dan kas bersama untuk kebutuhan pasar, kegiatan sosial, hingga perayaan tahunan Payungi. Dari proses tersebut, Payungi berkembang dari sekadar pasar kuliner menjadi gerakan pemberdayaan ekonomi warga. Selain berakar di Metro, Lampung, gerakan ini mulai menjangkau berbagai kabupaten dan kota di Lampung melalui pengembangan Lampung Hub.\n\nDharma melihat keberlanjutan gerakan bertumpu pada komitmen, pengetahuan, dan sumber daya yang dikelola bersama. Di Payungi, pedagang dibagi dalam empat kelompok dengan pengurus yang dipilih secara demokratis, sementara keputusan dan penggunaan kas dibicarakan dalam pertemuan rutin. Berbagai sumber daya juga dikumpulkan secara kolektif, mulai dari kas sosial, kas kurban, hingga tabungan untuk kebutuhan bersama, dan dilaporkan secara terbuka dalam Pesantren Wirausaha. Di luar Payungi, melalui Lampung Hub, komunitas dari berbagai kabupaten dan kota di Lampung mulai saling terhubung dan membantu sesuai keahlian masing-masing. Bagi Dharma, setiap pihak dapat menyumbangkan kekuatan yang berbeda—pengetahuan, pengalaman, keterampilan, maupun sumber daya—tanpa harus mengambil alih peran pihak lain. Karena itu, ia membayangkan kolaborasi antar komunitas yang dapat terus saling membantu dan menginspirasi, salah satunya melalui perayaan Pasar Kreatif bersama.",
+  },
+  {
+    id: 9,
+    name: "Dini Zakia (Dizi)",
+    image: "/assets/ecosystem/profile/Narrative_Weaver_Dini_Zakia_(Dizi).png",
+    slug: "dini-zakia",
+    roles: ["Narrative Weaver", "Sensemaker"],
+    description:
+      "Dini Zakia aktif dalam kerja Combine Resource Institution (CRI) di Yogyakarta, dalam ekosistem yang berupaya memperkuat gerakan warga yang berdaya, inklusif, dan saling terhubung untuk menghadapi ketidakadilan. Dini terlibat dalam mendokumentasikan pengalaman, refleksi, pembelajaran, tantangan, kegagalan, dinamika hubungan, dan proses pengambilan keputusan dari berbagai aktor melalui cerita perubahan, catatan refleksi, dan arsip pengalaman. Dalam Ekosistem Gerakan Rimpang, pengalaman dan pembelajaran dari tujuh anggotanya menjadi bahan untuk menemukan benang merah nilai, keresahan, dan cita-cita bersama. Bagi Dini, dokumentasi juga membantu menjaga ingatan kolektif sekaligus memperkuat keterhubungan antaraktor dalam ekosistem. \n\nDini melihat bahwa setiap anggota membawa pengalaman, praktik, dan pembelajaran yang sama pentingnya dalam membentuk arah dan cerita ekosistem. Berbagai anggota juga menjadi agen yang membawa gagasan ekosistem ke pihak-pihak di luar jejaring. Ia menyadari bahwa perbedaan agenda organisasi dapat menghambat kolaborasi, sehingga perlu dibangun agenda bersama yang beririsan dengan kepentingan masing-masing agar tujuan ekosistem dapat hadir dalam kerja setiap anggota. Di sisi lain, membangun kolaborasi dengan pihak baru membutuhkan awareness dan kepercayaan yang tidak dapat dibangun secara instan. Karena itu, bagi Dini, ekosistem perlu dirawat melalui relasi yang terjaga dan proses bersama yang tidak hanya hangat di awal, tetapi mampu bertahan dan terus bergerak menuju cita-cita bersama.",
+  },
+  {
+    id: 10,
+    name: "Febri Sastiviani Putri Cantika (Uti)",
+    image:
+      "/assets/ecosystem/profile/Adaptive_Ecosystem_Leader_Febri_Sastiviani_Putri_Cantika_(Uti).png",
+    slug: "febri-sastiviani-putri-cantika-uti",
+    roles: ["Adaptive Ecosystem Leader", "Narrative Weaver", "Sensemaker"],
+    description:
+      "Febri Sastiviani Putri Cantika atau Uti bersama Lembaga Alam Tropika Indonesia (LATIN) aktif membangun ekosistem Sosial Forestri yang mendorong tata kelola hutan dan agraria yang adil, inklusif, lestari, serta berakar pada pengetahuan dan kepemimpinan komunitas. Kerja ekosistem ini menjangkau NTT, Jawa Barat, Jawa Timur, Jawa Tengah, dan Kalimantan. Ia memulai proses dengan mendengarkan keresahan, memetakan aktor, dan mengenali energi perubahan yang sudah ada di komunitas. Pendekatan ini berkembang menjadi ruang belajar dan aksi seperti Sekolah Sosial Forestri, penguatan kelompok perempuan dan orang muda, serta pengembangan kelembagaan usaha bersama. Pengalaman di lapangan juga mendorong perubahan strategi LATIN dari pendampingan yang berorientasi pada izin menuju penguatan ekosistem sosial forestri pasca-izin, dengan perhatian pada kelembagaan, penghidupan, GEDSI, pengetahuan, kebijakan, dan sumber daya.\n\nUti menjadikan pengalaman komunitas sebagai sumber pembelajaran yang didokumentasikan melalui catatan refleksi, wawancara, cerita perubahan, Most Significant Change, kajian kasus, dan Know–Change Framework. Dari proses tersebut, LATIN merajut narasi Sosial Forestri 2045 sebagai visi tentang pengelolaan hutan dan agraria sebagai commons yang adil, inklusif, dan berkelanjutan. Ia melihat ekosistem bekerja ketika komunitas menjadi produsen pengetahuan, sementara akademisi, pemerintah, organisasi masyarakat sipil, donor, pelaku usaha, perempuan, dan orang muda saling melengkapi melalui pengetahuan, kewenangan, jejaring, dan sumber daya. Bagi Uti, LATIN berperan sebagai salah satu simpul yang menghubungkan pengalaman komunitas dengan pengetahuan, kebijakan, dan aksi yang lebih luas, bukan sebagai pusat tunggal gerakan.",
+  },
+  {
+    id: 11,
+    name: "Ferdhi Putra",
+    image: "/assets/ecosystem/profile/Network_Weaver_Ferdhi_Putra.png",
+    slug: "ferdhi-putra",
+    roles: ["Network Weaver"],
+    description:
+      "Ferdhi Putra aktif bersama Combine Resource Institution (CRI) dalam Ekosistem Gerakan Rimpang di Yogyakarta, yang memperkuat solidaritas masyarakat sipil dan mempertahankan ruang demokrasi yang semakin menyempit. Ia terlibat mempertemukan aktor-aktor masyarakat sipil yang selama ini tersekat oleh sektor dan isu, dengan melihat bahwa berbagai gerakan memiliki tujuan yang beririsan. Dengan tidak menempatkan satu agenda sebagai prioritas, berbagai pihak dapat menghimpun dan mengonsolidasikan sumber daya untuk mencapai tujuan bersama. Bagi Ferdhi, hubungan yang sehat ditandai oleh posisi yang egaliter, tanpa rasa saling curiga, dominasi, atau subordinasi, sehingga setiap pihak dapat bergerak secara mandiri maupun terkoordinasi.\n\nFerdhi melihat pentingnya menghubungkan kerja-kerja berbasis proyek dengan cita-cita gerakan yang lebih besar, sehingga pengalaman dan sumber daya yang muncul dari berbagai inisiatif tidak berhenti pada capaian masing-masing. Ia membayangkan gerakan yang desentralistik namun tetap sinergis, dengan berbagai pihak mendorong perubahan dari sisi masing-masing secara bersamaan. Kesamaan visi menjadi salah satu pengikat penting dalam proses tersebut karena memudahkan berbagai organisasi dan individu dengan perspektif serupa untuk mengonsolidasikan misi. Bagi Ferdhi, pembelajaran dari proses, termasuk kegagalan dan ketegangan. Tak hanya itu, penting juga untuk membantu memahami arah gerakan dan menemukan cara agar kerja-kerja yang beragam tetap terhubung dengan perubahan sosial yang lebih besar.",
+  },
+  {
+    id: 12,
+    name: "Gustaff H. Iskandar",
+    image:
+      "/assets/ecosystem/profile/Adaptive_Ecosystem_Leader_Gustaff_H._Iskandar.png",
+    slug: "gustaff-h-iskandar",
+    roles: ["Adaptive Ecosystem Leader", "Network Weaver"],
+    description:
+      "Gustaff H. Iskandar aktif bersama Common Room Networks Foundation (Common Room) dalam membangun ekosistem yang berupaya mengatasi kesenjangan digital di wilayah pedesaan dan tempat terpencil. Kerja ini mencakup peningkatan kapasitas teknis dan literasi digital untuk infrastruktur internet berbasis komunitas, penelitian dan advokasi kebijakan, pengembangan layanan lokal, serta penguatan GEDSI. Praktiknya dilakukan dengan mengidentifikasi kompleksitas dan tantangan yang dihadapi komunitas, lalu membangun strategi dan kapasitas bersama agar komunitas dapat mengembangkan kegiatan secara mandiri dan berkelanjutan.\n\nDalam merawat keterhubungan, Gustaff bersama mitra strategis memetakan ekosistem dan aktor kunci, lalu menghubungkan mereka untuk bertukar informasi, pengetahuan, dan agenda kerja melalui relasi yang dibangun secara partisipatif, transparan dan terbuka. Praktik ini menjangkau berbagai wilayah, antara lain Kota Bandung, Kampung Adat Gelaralam dan Kecamatan Ciracap (Jawa Barat); Pulo Aceh (Provinsi Aceh); Pulau Siberut (Kepulauan Mentawai), Sungai Nibung (Kalimantan Barat); Maros (Sulawesi Selatan); Ngata Toro (Sulawesi Tengah); Pulau Taliabu (Maluku Utara); Mataredi dan BLK Don Bosco (Sumba); Desa Sukadana (Lombok Utara); serta Desa Tembok (Bali). Bagi Gustaff, kekuatan ekosistem tidak hanya berasal dari Common Room, tetapi dari jejaring donor, organisasi masyarakat sipil, komunitas teknis, akademisi, pemerintah, serta komunitas dan warga yang menjalankan berbagai inisiatif di tingkat lokal.",
+  },
+  {
+    id: 13,
+    name: "Hapsah Nur Hapsari",
+    image:
+      "/assets/ecosystem/profile/Community_Spark_Plug_Hapsah_Nur_Hapsari.png",
+    slug: "hapsah-nur-hapsari",
+    roles: ["Community Spark Plug"],
+    description:
+      "Hapsah Nur Hapsari aktif bersama Pengembangan Generasi Pelestari Hutan (PUSGENRI) melalui Forest Youthverse, Youth Talk Take Action (YTTA), dan Bestari Rimba untuk memperluas akses pembinaan bagi generasi muda pelestari hutan. Ia memantik keterlibatan anak muda dengan memetakan minat dan keresahan peserta, mendokumentasikan kegiatan, serta mengembangkan konten edukatif yang dekat dengan mereka. Kerjanya menjangkau tujuh wilayah regional Balai, termasuk Pekanbaru, Kalimantan Timur, Sulawesi Selatan, dan NTT, dengan basis kerja di Jakarta dan Bogor.\n\nBagi Hapsah, ekosistem tumbuh ketika dukungan pusat dan kekuatan lokal saling melengkapi. Pusgenri menyediakan ruang, akses, dan sumber daya, sementara Balai daerah membawa pengetahuan konteks lokal, menghubungkan peserta, dan membantu menerjemahkan program agar relevan dengan kebutuhan wilayah. Pengetahuan, data, dan pengalaman yang dibawa masing-masing pihak menjadi penting agar pembelajaran dapat dibagikan lintas daerah dan tidak bergantung pada satu individu.",
+  },
+  {
+    id: 14,
+    name: "Indriyatno Banyumurti (IB)",
+    image:
+      "/assets/ecosystem/profile/Adaptive_Ecosystem_Leader_Indriyatno_Banyumurti_(IB).png",
+    slug: "indriyatno-banyumurti-ib",
+    roles: ["Adaptive Ecosystem Leader", "Network Weaver"],
+    description:
+      "Indriyatno Banyumurti (IB) aktif bersama ICT Watch dalam membangun ekosistem literasi digital yang inklusif dan bermakna, dengan jangkauan kerja yang telah dilakukan dalam skala Nasional. Salah satu praktik utamanya adalah menyediakan materi edukasi literasi digital yang dapat diakses secara bebas dan mendorong berbagai bentuk edukasi yang dapat dikembangkan oleh pihak lain di daerah. Ketika pandemi mengubah cara kerja yang sebelumnya mengandalkan kunjungan langsung ke daerah, pendekatan tersebut dialihkan dengan memperkuat local champion di masing-masing wilayah. Peran kemudian didistribusikan dari Jakarta ke daerah agar program dapat disesuaikan dengan kebutuhan masyarakat setempat. Pendekatan ini bahkan mendapat pengakuan dari PBB pada 2024.\n\nDalam membangun jejaring, IB dan ICT Watch menghubungkan komunitas, pemerintah, akademisi, dan sektor industri dengan pendekatan yang berbeda untuk membangun kepercayaan. Banyak pihak kemudian mempercayakan kerja sama di isu literasi digital kepadanya, termasuk dalam diskusi dan penyusunan kebijakan maupun program bersama. Dalam koalisi atau ekosistem kerja yang melibatkan Common Room, misalnya, Common Room berperan sebagai pengarah yang memantau perkembangan program, sementara ICT Watch berperan mengembangkan dan menjalankan kerja literasi digital sesuai kapasitas dan jejaring yang dimilikinya. Pihak lain turut berkontribusi melalui talenta dan kapasitas, sumber daya, serta pengetahuan dan wawasan. Bagi IB, ekosistem bekerja ketika peran dan sumber daya tidak terpusat pada satu pihak, tetapi saling melengkapi melalui komunikasi terbuka dan pembagian tanggung jawab yang jelas.",
+  },
+  {
+    id: 15,
+    name: "Istini Anggoro (Isti)",
+    image:
+      "/assets/ecosystem/profile/Community_Spark_Plug_Istini_Anggoro_(Isti).png",
+    slug: "istini-anggoro-isti",
+    roles: ["Community Spark Plug", "Network Weaver"],
+    description:
+      "Istini Anggoro (Isti) aktif bersama Pusat Pelatihan dan Pengembangan Rehabilitasi Bersumberdaya Masyarakat (PPRBM) Solo dalam memperjuangkan kesetaraan hak dan kesempatan bagi penyandang disabilitas, dengan jangkauan kerja di Jawa Tengah, Soloraya, Kabupaten Kebumen, dan Kabupaten Banjarnegara. Ia memantik gerakan dengan menggali keresahan dan kebutuhan komunitas melalui diskusi, lalu memetakan jalur advokasi dan pihak yang perlu dilibatkan. Salah satu praktiknya adalah advokasi layanan terapi bagi anak difabel bersama komunitas kepada pemerintah yang dilakukan tiga kali dan pada awal 2025 menghasilkan dukungan program layanan terapi melalui kolaborasi lintas sektor.\n\nIsti membangun jejaring dengan menekankan ruang pertemuan, posisi setara, komunikasi transparan, dan keterbukaan peran. Praktik ini terlihat dalam konsolidasi pengawalan Rencana Aksi Daerah Penyandang Disabilitas Provinsi Jawa Tengah bersama organisasi penyandang disabilitas. Baginya, ekosistem tumbuh ketika pengetahuan, pengalaman, kapasitas, dan sumber daya berbagai pihak saling melengkapi. Rekan kerja, pendamping di PPRBM Solo, dan juga jejaring di ekosistem ini menjadi bagian penting dalam proses tersebut. Bergotong royong melalui berbagi pengetahuan, pengalaman, dan dukungan. Sementara itu, keterbatasan kebijakan dan peluang adopsi masih menjadi tantangan, sehingga penguatan kapasitas dan kepemimpinan orang muda difabel menjadi salah satu arah kolaborasi ke depan.",
+  },
+  {
+    id: 16,
+    name: "Iva Hasanah",
+    image: "/assets/ecosystem/profile/Network_Weaver_Iva_Hasanah.png",
+    slug: "iva-hasanah",
+    roles: ["Network Weaver", "Collaborator Conductor"],
+    description:
+      "Iva Hasanah aktif bersama Kelompok Perempuan dan Sumber-Sumber Kehidupan (KPS2K) Jawa Timur dan IFAH (Indonesia Feminis Academy and Humanitarian) dalam memperkuat ekosistem perubahan berbasis komunitas yang berfokus pada inklusi sosial, pemberdayaan perempuan, dan solidaritas warga di 20 kabupaten/kota di Jawa Timur. Ia membangun keterhubungan dengan rutin mendatangi komunitas, membuka forum diskusi informal, mendengarkan keresahan, dan memberi ruang untuk membaca peluang bergerak bersama. Dalam jejaring pentahelix, ia membantu menyatukan visi sekaligus memberi ruang bagi setiap pihak untuk berkontribusi sesuai kapasitasnya. Praktiknya terlihat dalam advokasi dan penggalian data partisipatif yang mempertemukan NGO, komunitas, dan pemerintah untuk mendorong perubahan kebijakan, termasuk pengembangan Indeks GEDSI.\n\nBagi Iva, ekosistem tumbuh ketika hubungan tetap terjaga meski tidak selalu ditopang program atau pendanaan. Advokasi yang lebih cepat direspons, perubahan kebijakan, dan komunikasi yang terus berjalan secara formal maupun informal menjadi tanda bahwa jejaring telah berbasis kepercayaan. Ia melihat dukungan ekosistem datang dari berbagai sumber: KAPAL Perempuan sebagai mitra nasional, DFAT melalui dukungan pendanaan, jejaring seperti YKPM Sulsel, serta perhatian dan dukungan dari Roemi. Masing-masing membawa sumber daya, pengetahuan, legitimasi, atau akses yang membantu gerakan bertahan dan berkembang. Tantangan yang masih ia rasakan adalah memperkuat dukungan market, infrastruktur, dan modal, sekaligus membangun kolaborasi lintas generasi agar ekosistem dapat tumbuh lebih besar dan kuat.",
+  },
+  {
+    id: 17,
+    name: "Izhar Fathurrohim",
+    image: "/assets/ecosystem/profile/Narrative_Weaver_Izhar_Fathurrohim.png",
+    slug: "izhar-fathurrohim",
+    roles: ["Narrative Weaver & Sensemaker", "Wellbeing Caregiver"],
+    description:
+      "Izhar Fathurrohim (Izhar) aktif bersama Sanggar Ikhtiar di Cirebon, Jawa Barat, yang mempertemukan seni, desain, pengarsipan, penerbitan, dan pembelajaran kolektif untuk menjaga pengetahuan lokal agar dapat dipelajari dan diteruskan. Ia mendokumentasikan pengalaman dan pembelajaran melalui catatan lapangan, arsip, publikasi, dokumentasi visual, serta diskusi internal, yang kemudian dapat berkembang dari jurnal pengalaman personal menjadi kompilasi pengetahuan bersama. Praktik ini berjalan berdampingan dengan ruang perawatan melalui sesi makan dan minum dalam kelompok kecil, yang memberi kesempatan bagi anggota untuk berbicara secara jujur tentang pendapat, perasaan, maupun kelelahan.\n\nBagi Izhar, kekuatan ekosistem terletak pada kemampuan berbagai pihak untuk saling berbagi dan mengaktifkan sumber daya yang mereka miliki. Komunitas tidak hanya menjadi penerima, tetapi turut menjadi penggagas dan pengembang praktik; sementara pihak lain dapat berkontribusi melalui ruang, keahlian, kerja sukarela, fasilitas, material, maupun akses jejaring. Bagi Izhar, dalam ekosistem yang kini tengah dibangun Sanggar Ikhtiar, Arka Kinari, Smiljan, dan Festival Komunitas Seni Media serta berbagai pihak lain turut menjadi penghubung yang membuka dan merajut koneksi lintas pihak. Keterhubungan ini menjadi salah satu sumber daya penting bagi kerja komunitas, memungkinkan pertukaran ruang, keahlian, kerja sukarela, fasilitas, material, hingga akses ke relasi baru. Di sisi lain, penguatan kapasitas untuk menjangkau donor serta membangun unit usaha atau sumber pendanaan mandiri masih menjadi kebutuhan, terutama karena sebagian besar anggota lebih banyak bekerja di lapangan.",
+  },
+  {
+    id: 18,
+    name: "Julian Riezki Pratama (Juli Berskema)",
+    image:
+      "/assets/ecosystem/profile/Community_Spark_Plug_Julian_Riezki_Pratama_(Juli Berskema).png",
+    slug: "julian-riezki-pratama-juli-berskema",
+    roles: ["Community Spark Plug", "Resource Ecosystem Orchestrator"],
+    description:
+      "Julian Riezki Pratama aktif melalui Selarasa Jagakarsa Food Lab di Jakarta Selatan, yang menghidupkan kembali Jagakarsa sebagai ruang pangan lokal melalui praktik bertani, berbagi pengetahuan, dan membangun kedekatan antarwarga. Ia memulai dengan berkunjung dan berbaur bersama petani, lalu mengajak mereka berkumpul di ruang komunitas. Dari sana, pertemuan berkembang menjadi ruang untuk berbagi, berdiskusi, saling mengkritik, dan menjaga silaturahmi. Ia juga mengaktifkan sumber daya non moneter melalui swadaya bersama: waktu, tenaga, dan ruang; serta menjaga kedekatan komunitas lewat praktik sederhana seperti memasak dan makan bersama.\n\nDari pengalamannya Juli melihat bahwa ekosistem gerakan tidak selalu membutuhkan sumber daya besar; ia dapat bertahan ketika orang-orang bersedia mengaktifkan apa yang mereka punya dan menggunakannya bersama. Waktu, tenaga, ruang, dan pengetahuan dapat menjadi modal untuk menjaga pertemuan dan kerja bersama, sementara transparansi dan kesediaan untuk saling mengukur membantu memastikan kontribusi berjalan adil. Di sisi lain, ia melihat dukungan dari berbagai pihak masih belum mudah diakses karena masing-masing memiliki motif dan kepentingannya sendiri.",
+  },
+  {
+    id: 19,
+    name: "Kinanti Munggareni (Kimung)",
+    image:
+      "/assets/ecosystem/profile/Narrative_Weaver_Kinanti_Munggareni_(Kimung).png",
+    slug: "kinanti-munggareni-kimung",
+    roles: ["Narrative Weaver & Sensemaker", "Network Weaver"],
+    description:
+      "Kinanti Munggareni (Kimung) aktif melalui CIVIC Toolkit, berbasis di Jakarta dan Depok, Jawa Barat, serta bekerja bersama individu, komunitas, kolektif, dan organisasi dari berbagai wilayah Indonesia melalui kelas daring, fasilitasi luring, pengembangan perangkat praktik, dan kolaborasi lintas sektor. Ia mendokumentasikan pengalaman, keberhasilan, kegagalan, serta dinamika relasi melalui catatan refleksi, modul, zine, arsip pembelajaran, dan toolkit, lalu mengolahnya menjadi pengetahuan yang dapat digunakan dan diadaptasi oleh kelompok lain. Praktik ini berkembang dalam eksperimen CIVIC Toolkit dan ekosistem ProyekDekolonial, dengan jejaring yang mencakup kelompok di Yogyakarta, Spirit in Education Movement (SEM) Thailand, serta Bonn, Köln, dan Hamburg di Jerman, selain berbagai komunitas dan organisasi di Indonesia.\n\nDalam membangun keterhubungan, Kimung memulai dari pemetaan aktor, kebutuhan, kapasitas, relasi, dan risiko, lalu membuka ruang belajar, percakapan, peer-group support, dan eksperimen kolaboratif. Ia melihat kelompok-kelompok dalam ekosistem tidak harus disatukan dalam satu struktur, tetapi dapat tetap otonom sambil saling bertukar pengetahuan, ruang, jaringan, kapasitas, dan sumber daya sesuai kebutuhan. Alumni, organisasi mitra, individu, dan jaringan pengetahuan dapat menjadi penghubung sekaligus sumber pengalaman dan ruang eksperimen. Bagi Kimung, keterhubungan menjadi bermakna ketika pembelajaran dan sumber daya dapat berpindah serta dikembangkan oleh pihak lain, sehingga tidak bergantung pada satu organisasi atau figur.",
+  },
+  {
+    id: 20,
+    name: "Linda Ayu Citra N",
+    image: "/assets/ecosystem/profile/Narrative_Weaver_Linda_Ayu_Citra_N.png",
+    slug: "linda-ayu-citra-n",
+    roles: ["Network Weaver", "Community Spark Plug"],
+    description:
+      "Linda Ayu Citra aktif melalui Say Waway (Say No Waste is our Way) di Metro, Lampung, sebuah gerakan yang menghubungkan pelestarian tradisi wastra dengan kampanye slow fashion dan sustainable fashion. Ia memantik gerakan dari keresahan atas terbatasnya ruang bagi desainer lokal, minimnya pilihan karier bagi siswa SMK tata busana, serta besarnya limbah industri fesyen. Dari sana, Say Waway berkembang menjadi gelaran tahunan sejak 2022, dilengkapi edukasi informal dan pendekatan ke sekolah, khususnya SMK tata busana. Konsistensi kegiatan selama lima tahun, termasuk ketika dukungan pemerintah berubah, serta semakin luasnya jejaring kolaborator menjadi penanda bahwa gerakan ini terus menemukan dukungan dan bentuk baru.\n\nDalam merajut kolaborasi, Linda mempelajari peta hubungan antar aktor, menyesuaikan bahasa dengan masing-masing pihak, dan memberi ruang yang proporsional agar setiap kolaborator merasa memiliki. Praktiknya mempertemukan komunitas fesyen, MUA, fotografi, seni pertunjukan, UMKM, Woman & Environment Studies (WES), pegiat difabel, pemerintah Kota Metro, hingga Ashoka Indonesia dan Bank Indonesia. Dukungan Bank Indonesia memperluas wawasan tentang sustainable fashion, sementara Ashoka mendukung terbentuknya Lampung Hub untuk memperluas gerakan. Bagi Linda, hubungan yang terbangun perlu terus dirawat agar tidak berhenti pada kegiatan, sementara tantangan berikutnya adalah menemukan jejaring yang dapat membantu melihat gerakan secara lebih utuh dan membangun narasi bersama.",
+  },
+  {
+    id: 21,
+    name: "Meilani Putri Winingsih (Imel)",
+    image:
+      "/assets/ecosystem/profile/Network_Weaver_Meilani_Putri_Winingsih_(Imel).png",
+    slug: "meilani-putri-winingsih-imel",
+    roles: ["Network Weaver", "Narrative Weaver & Sensemaker"],
+    description:
+      "Meilani Putri Winingsih (Imel) aktif di Pusat Pengembangan Generasi Pelestari Hutan (PUSGENRI) Kementerian Kehutanan, dengan cakupan kerja di Jakarta dan berbagai wilayah di Indonesia. Selama lebih dari 10 tahun, ia mempertemukan generasi muda, pemerintah, komunitas, praktisi, akademisi, dan mitra strategis melalui Forest Youthverse dan Youth Talk Take Action. Ruang-ruang ini dirancang untuk menyatukan visi generasi muda dalam menjawab isu kehutanan, sekaligus memberi kesempatan bagi mereka untuk berkontribusi sebagai mitra strategis. Perkembangannya terlihat dari terbentuknya komunitas generasi muda pelestari hutan di berbagai wilayah dan munculnya inisiatif yang dilanjutkan secara mandiri.\n\nImel juga mengemas isu kehutanan melalui narasi seperti Youth for Conservation, Generasi Pelestari Hutan, dan Forest Healing, yang menghubungkan hutan dengan kepemimpinan, inovasi, dan masa depan generasi muda. Dalam ekosistem ini, Kementerian Kehutanan melalui BP2SDM, balai teknis, komunitas muda, organisasi lingkungan, praktisi konservasi, akademisi, dan mitra kolaborasi berkontribusi melalui dukungan kelembagaan, pengetahuan, pembelajaran, pendampingan, dan ruang aktualisasi. Tantangan yang masih perlu dijembatani adalah keberlanjutan dukungan setelah program berakhir, terutama akses terhadap pendanaan, jejaring strategis, dan model keberlanjutan bagi inisiatif generasi muda.",
+  },
+  {
+    id: 22,
+    name: "Mohammad Gatot Pringgotono (MG)",
+    image:
+      "/assets/ecosystem/profile/Network_Weaver_Mohammad_Gatot_Pringgotono_(MG).png",
+    slug: "mohammad-gatot-pringgotono-mg",
+    roles: ["Network Weaver", "Wellbeing Caregiver"],
+    description:
+      "Mohammad Gatot Pringgotono (MG) aktif bersama GUDSKUL di Jakarta Selatan, yang mendorong terbentuknya ekosistem seni rupa kontemporer yang berkelanjutan melalui pengetahuan, praktik artistik, dan ekonomi mandiri berbasis kolektif. Ia menginisiasi lahirnya kolektif seni rupa kontemporer melalui program studi kolektif, dengan pendekatan yang mempertemukan para pelaku seni dan membuka ruang untuk membangun hubungan lintas kelompok. Perkembangannya terlihat dari terbentuknya jejaring kolektif seni rupa kontemporer yang tidak hanya berada di Jakarta, tetapi telah tersebar di beberapa lokalitas di Indonesia dan jejaring internasional.\n\nDalam merawat relasi, MG dan GUDSKUL menggunakan pendekatan majelis, yaitu pertemuan rutin tempat anggota berbagi cerita, gagasan, dan rencana. Pertemuan bulanan tersebut menghasilkan dokumentasi diskusi, pertukaran gagasan, dan rencana tindak lanjut bersama, sekaligus menjadi ruang bagi anggota untuk menyampaikan kondisi dan kebutuhan mereka. Ekosistem ini turut ditopang oleh klien, pemerintah, dan organisasi mitra, yang menjadi sumber dukungan bagi perkembangan kerja kolektif. Tantangan yang masih ia rasakan adalah membangun komunikasi dan kepercayaan, terutama untuk membuka lebih banyak kolaborasi lintas bidang dan sektor serta memperkuat praktik kolaborasi yang berdampak.",
+  },
+  {
+    id: 23,
+    name: "Muhammad Hermayani Putera (Herma)",
+    image:
+      "/assets/ecosystem/profile/Network_Weaver_Muhammad_Hermayani_Putera_(Herma).png",
+    slug: "muhammad-hermayani-putera-herma",
+    roles: ["Network Weaver", "Resource Ecosystem Orchestrator"],
+    description:
+      "Muhammad Hermayani Putera (Herma) aktif bersama Kawasan Gerakan Pembaharu (GAHARU) Pontianak dalam membangun Kampung Yuka sebagai Living Ecosystem of Equatorial City, dengan menjangkau warga, komunitas, pemerintah, kampus, sekolah, media, dunia usaha, filantropi, hingga jejaring nasional. Praktiknya dimulai dari mendengar dan memetakan aktor, kebutuhan, serta inisiatif yang sudah hidup, kemudian mempertemukannya melalui percakapan informal, co-creation, aksi kecil, dan refleksi bersama. Pendekatan ini menghasilkan jejaring lintas kelompok dan terbentuknya Forum Komunikasi Warga Yuka yang melibatkan Ketua RT dan RW se-Kampung Yuka.\n\nDalam mengorkestrasi sumber daya, Herma menghubungkan kebutuhan komunitas dengan aset yang tersedia di dalam jejaring, terutama sumber daya non-moneter seperti pengetahuan, keahlian, teknologi, ruang, dan akses kelembagaan. Misalnya, kebutuhan mesin pencacah sampah dihubungkan dengan LAZISMU, teknologi deteksi dini bencana dengan Fakultas Teknik Universitas Muhammadiyah Pontianak, dan pengembangan eco-enzyme dengan ITEKES Muhammadiyah. Bagi Herma, ekosistem bekerja ketika sumber daya dapat mengalir sesuai kebutuhan dan tidak berhenti pada satu simpul; karena itu, warga, komunitas, perguruan tinggi, pemerintah, filantropi, dunia usaha, dan organisasi mitra berperan sebagai bagian dari ekosistem yang saling melengkapi. Baginya, tantangan berikutnya adalah membuat aliran sumber daya tersebut lebih beragam dan berkelanjutan, tidak hanya bergantung pada dukungan yang bersifat project-based.",
+  },
+  {
+    id: 24,
+    name: "Muhammad Ichlassul Amal (Amal)",
+    image:
+      "/assets/ecosystem/profile/Network_Weaver_Muhammad_Ichlassul_Amal_(Amal).png",
+    slug: "muhammad-ichlassul-amal-amal",
+    roles: ["Network Weaver", "Movement Connector"],
+    description:
+      "Muhammad Ichlassul Amal (Amal) aktif bersama Institut Hijau Indonesia (IHI) dalam membangun jejaring pendidikan lingkungan hidup dan kewargaan progresif yang telah menjangkau lebih dari 8.000 anak muda di 36 provinsi. Praktiknya dimulai dari jaringan alumni dan komunitas lokal, lalu mempertemukan pemuda, komunitas, akademisi, organisasi masyarakat sipil, media, dan pemerintah melalui diskusi, pemetaan partisipatif, forum koordinasi, serta ruang kolaborasi yang setara. Jejaring alumni juga diperkuat sebagai fasilitator lokal agar inisiatif dan komunikasi dapat terus berjalan di daerah setelah program selesai.\n\nAmal menghubungkan pengalaman dan aspirasi komunitas dengan ruang kebijakan dan publik melalui riset warga, diskusi komunitas, policy brief, artikel, laporan, serta kampanye digital. Baginya, kerja bersama berjalan ketika berbagai pihak dapat saling berbagi pengetahuan, kapasitas, jejaring, ruang, dan sumber daya. Alumni, mitra akademik, organisasi masyarakat sipil, media, dan komunitas lokal membawa kontribusi yang berbeda untuk menjaga keterhubungan sekaligus memperluas dampak gerakan. Dukungan Chalid Muhammad, Climate Land Use Alliance, TARA Foundation, WALHI, HUMa, dan KNTI menjadi bagian penting dalam perjalanan IHI. Tantangan ke depan adalah mengurangi ketergantungan pada donor dengan membangun model pendanaan yang berkelanjutan tanpa mengkomersialisasikan pendidikan.",
+  },
+  {
+    id: 25,
+    name: "Nadia Salsabila",
+    image: "/assets/ecosystem/profile/Network_Weaver_Nadia_Salsabila.png",
+    slug: "nadia-salsabila",
+    roles: ["Network Weaver"],
+    description:
+      "Nadia Salsabila aktif bersama Anindhaloka di Jakarta, sebuah ekosistem yang menjadikan sandang, pangan, dan olahdiri/wellness sebagai laboratorium belajar untuk mengembangkan praktik yang lebih berkelanjutan. Dalam membangun keterhubungan, Nadia menekankan bahwa komunikasi dua arah bukan hanya menyampaikan gagasan, tetapi juga mendengarkan dan memahami sudut pandang pihak lain. Praktik ini membantunya menjaga hubungan lintas pihak agar tidak mudah terjebak dalam kesalahpahaman atau dominasi. Kepercayaan terlihat ketika orang-orang dapat meminta bantuan, mendelegasikan tugas saat dibutuhkan, dan muncul gotong royong ketika menghadapi persoalan bersama.\n\nDalam ekosistem yang dibangun Anindhaloka, berbagai sumber daya saling melengkapi untuk mendukung keberlanjutan kerja. Ruang yang tersedia di Anindhaloka menjadi salah satu aset penting untuk kegiatan, pertemuan, dan aktivasi komunitas, sementara program kerja sama yang menghadirkan peserta turut membuka peluang pertukaran pengetahuan dan mendukung operasional. Di saat yang sama, berbagai pihak dalam jejaring dapat membawa kapasitas, pengetahuan, peluang kolaborasi, dan sumber daya yang memperkaya proses belajar dan kerja bersama. Tantangan ke depan adalah memperluas keterhubungan dengan sumber daya tersebut, terutama akses pendanaan, sekaligus mengoptimalkan aset yang sudah dimiliki agar semakin banyak dimanfaatkan untuk kegiatan komunitas yang selaras dengan visi Anindhaloka.",
+  },
+  {
+    id: 26,
+    name: "Nenden Sekar Arum",
+    image:
+      "/assets/ecosystem/profile/Adaptive_Ecosystem_Leader_Nenden_Sekar_Arum.png",
+    slug: "nenden-sekar-arum",
+    roles: ["Adaptive Ecosystem Leader", "Network Weaver"],
+    description:
+      "Nenden Sekar Arum berproses bersama SAFEnet dalam membangun ekosistem perlindungan hak digital, dengan jangkauan nasional. Bagi Nenden, perubahan kebijakan digital yang berlangsung cepat dan ruang sipil yang semakin menyempit menuntut pergeseran pendekatan: dari sekadar merespons kasus individual menuju pemantauan tren, advokasi kebijakan, penguatan kapasitas komunitas, dan pengembangan jejaring lintas aktor. Dalam merajut koneksi, Nenden mengandalkan ruang dialog yang terbuka, pemahaman atas kepentingan masing-masing, komunikasi rutin, dan kerja bersama berbasis isu. Ia melihat koneksi yang sehat ketika setiap pihak tetap memiliki ruang dan kepemilikan atas kerja yang dijalankan, sementara hubungan dibangun melalui peran fasilitator yang tidak mendominasi. Kesetaraan dalam berbicara dan berkontribusi penting agar kolaborasi dapat berjalan tanpa bergantung pada satu pihak.\n\nCara pandang ini juga tercermin dalam melihat ekosistem yang lebih tangguh ketika inisiatif, pengetahuan, dan kapasitas tersebar di antara berbagai aktor. Kepercayaan tumbuh ketika mereka dapat berbagi informasi dan kritik secara terbuka, tetap berkolaborasi tanpa ketergantungan, serta memunculkan inisiatif bersama secara mandiri. Dalam perjalanan SAFEnet, dukungan berasal dari organisasi masyarakat sipil, jurnalis, akademisi, mitra pendanaan, jejaring regional seperti DRAPAC, serta komunitas dan individu yang didampingi yang turut membawa pengetahuan, pengalaman, dan legitimasi. Tantangan yang masih dirasakan adalah membangun sumber daya yang lebih fleksibel dan berjangka panjang, sekaligus mengurangi sekat berdasarkan isu, wilayah, organisasi, maupun pendanaan agar kekuatan kolektif dapat berkembang lebih jauh.",
+  },
+  {
+    id: 27,
+    name: "Nova Ruth Setyaningtyas",
+    image: "/assets/ecosystem/profile/Nova Ruth Setyaningtyas.png",
+    slug: "nova-ruth-setyaningtyas",
+    roles: ["Adaptive Ecosystem Leader", "Wellbeing Caregiver"],
+    description:
+      "Nova Ruth Setyaningtyas aktif bersama Arka Kinari, pertunjukan multimedia di atas kapal yang sejak 2019 berlayar menyusuri wilayah pesisir untuk membuka percakapan tentang krisis iklim sekaligus menghubungkan kembali komunitas melalui pengetahuan dan pengalaman lokal. Melalui Coastal Community Conference (CCC), Nova merajut hubungan antara komunitas yang ditemui sepanjang pelayaran dengan orang-orang yang memiliki pengetahuan, keahlian, dan solusi yang relevan. CCC menghadirkan solution-based projects di bidang teknologi, strategi, maupun finansial, sekaligus menjadi ruang untuk saling check-in dan merawat hubungan. Jejaring ini menjangkau berbagai wilayah pesisir, antara lain Cirebon, Pacitan, Ternate, Flores, dan Belitung, dengan rencana Sekoci (Sesi Kolaborasi Cerita dan Inspirasi) yang dikembangkan sesuai kebutuhan masing-masing daerah.\n\nPerhatian pada relasi berjalan beriringan dengan cara Nova merawat orang-orang yang menggerakkan jejaring. Dalam pelayaran Arka Kinari, ia menggunakan lingkaran pagi untuk memeriksa kondisi jasmani dan rohani kru, sementara dalam CCC praktik serupa dilakukan setiap 2–3 hari. Ruang ini memungkinkan anggota berbagi keresahan, kelelahan, maupun hal-hal yang sedang mereka hadapi, dengan tanda keberhasilannya ketika orang dapat menangis dan tertawa dengan lepas. Pengalaman menghadapi pergantian mitra di tengah perencanaan CCC juga menunjukkan cara Nova menjaga tim tetap berfokus pada tujuan bersama dan beradaptasi terhadap situasi yang berubah. Bagi Nova, jejaring menjadi kuat ketika para penggeraknya dapat bergerak lebih mandiri di daerah masing-masing, sambil tetap saling berbagi waktu, pengalaman, keahlian, dan sumber daya. Para awak CCC menjadi bagian penting dari ekosistem ini karena keahlian mereka yang beragam saling melengkapi dan memungkinkan inisiatif berkembang tanpa selalu bergantung pada satu penggerak.",
+  },
+  {
+    id: 28,
+    name: "Paksi Lalang Sambegana",
+    image:
+      "/assets/ecosystem/profile/Network_Weaver_Paksi_Lalang_Sambegana.png",
+    slug: "paksi-lalang-sambegana",
+    roles: ["Network Weaver", "Community Spark Plug"],
+    description:
+      "Paksi Lalang Sambegana aktif di WALHI Kalbar dan mendorong keterlibatan anak muda dalam gerakan sosial lingkungan melalui pendekatan yang dekat dengan keseharian mereka, seperti konser, pop culture, dan ruang digital melalui Suardara dan Pontibaca di ruang-ruang skena Pontianak, dan melalui SELARAS di ruang digital seperti Roblox dan Discord. Dalam prosesnya, ia ikut membuka ruang pertemuan dan kolaborasi antara WALHI Kalbar, Organisasi Kampus, Trend Asia, komunitas, dan CSO lainnya dalam beberapa kegiatan.\n\nPaksi berusaha memahami minat dan tingkat keterlibatan orang-orang yang ditemuinya, menjaga keterbukaan informasi, serta memberi ruang agar setiap pihak dapat ikut memiliki agenda bersama. Baginya, hubungan yang baik tumbuh dari kepercayaan, rasa memiliki, penghargaan, rasa aman, dan ruang aktualisasi. Dukungan pun tidak selalu harus berupa pendanaan, tetapi bisa hadir melalui kapasitas, pengetahuan, ruang, peluang, maupun perspektif yang dibagikan sesuai kemampuan masing-masing. Ia melihat masih ada ruang untuk mempertemukan gerakan sosial di Kalimantan Barat dengan kalangan akademisi, sehingga pengetahuan dan perspektif yang ada dapat saling melengkapi dalam kerja perubahan.",
+  },
+  {
+    id: 29,
+    name: "Pri Anton Subardio (Anton)",
+    image:
+      "/assets/ecosystem/profile/Network_Weaver_Pri_Anton_Subardio_(Anton).png",
+    slug: "pri-anton-subardio-anton",
+    roles: ["Network Weaver", "Collaborator Conductor"],
+    description:
+      "Pri Anton Subardio telah aktif lebih dari 10 tahun bersama Rotary Club of Purwokerto, dengan kerja yang berfokus pada pengabdian kemanusiaan dan menjangkau Purwokerto serta berbagai wilayah di Jawa Tengah, dalam jejaring Rotary yang lebih luas hingga tingkat distrik dan internasional. Dalam membangun keterhubungan, ia mendorong pertemuan antara anggota senior dan generasi muda secara bertahap, membuka penggunaan teknologi, media sosial, dan jejaring di luar klub. Ia juga terlibat dalam menghidupkan kembali kegiatan yang pernah dilakukan generasi sebelumnya dengan melibatkan anggota, sumber daya klub, serta jejaring distrik dan internasional.\n\nDalam kerja bersama, Anton berusaha memberi ruang pada berbagai suara dan menggunakan pengalaman anggota senior sebagai sumber pembelajaran, sementara generasi muda membawa energi dan cara kerja baru. Keputusan diupayakan melalui pembicaraan bersama agar tidak ada pihak yang tertinggal. Dukungan dari anggota klub, pemerintah daerah dan desa, media, serta jejaring Rotary turut membuka akses terhadap dana, nasihat, perizinan, dan penguatan komunikasi publik. Bagi Anton, ekosistem menjadi lebih hidup ketika sumber daya dan kemampuan tersebut dapat dipertukarkan secara terbuka; tantangan yang masih ia rasakan adalah membaca dinamika di dalam klub sekaligus hubungan dengan pihak di luarnya agar kerja bersama dapat bergerak semakin luwes.",
+  },
+  {
+    id: 30,
+    name: "Rassi Narika",
+    image: "/assets/ecosystem/profile/Rassi Narika.png",
+    slug: "rassi-narika",
+    roles: ["Adaptive Ecosystem Leader", "Narrative Weaver & Sensemaker"],
+    description:
+      "Rassi Narika aktif melalui Lintas Batas/Coastal Community Conference (CCC), yang menjangkau jejaring di berbagai wilayah Nusantara dan mempertemukan seniman, komunitas, serta pelaku perubahan di persilangan isu keadilan iklim, seni budaya, dan pemberdayaan masyarakat pesisir. Dalam praktiknya, Rassi berupaya menjaga agar arah gerakan tetap berpijak pada kebutuhan dan nilai komunitas, termasuk ketika berhadapan dengan dukungan donor yang lebih berorientasi administratif. Ia bersama anggota komunitas menetapkan batas kompromi, mencari dukungan dari sumber daya yang tersedia di jejaring, dan memperkuat koordinasi antar-komunitas ketika menghadapi situasi yang tidak terduga.\n\nPengalaman tersebut juga membentuk cara Rassi merawat pengetahuan bersama. Pembelajaran dan refleksi didokumentasikan melalui tulisan, suara, video, dan publikasi cetak, dengan memperhatikan konteks di balik setiap cerita agar dapat dipahami dan digunakan kembali oleh komunitas. Dalam pandangannya, berbagai pihak dapat saling menguatkan melalui pertukaran metode, perspektif, dan sumber daya non-moneter; keterbukaan serta kesepakatan tentang nilai keadilan menjadi bagian penting dalam kolaborasi. Dukungan pemberi hibah, mentor, dan fasilitator, termasuk ClimateWorks, Prince Claus Fund, Roemi, dan Cendekia Iklim telah membantu membuka ruang eksplorasi dan mempertemukan jejaring Coastal Community. Bagi Rassi tantangan yang masih dirasakan adalah memperluas akses pada pengetahuan dan peluang yang dapat membaca dampak kerja komunitas yang sifatnya tersebar dan bertahap.",
+  },
+  {
+    id: 31,
+    name: "Ratna Hartiningtyas (Ratna Hartien)",
+    image:
+      "/assets/ecosystem/profile/Resource_Ecosystem_Orchestrator_Ratna_Hartiningtyas_(Ratna_Hartien).png",
+    slug: "ratna-hartiningtyas-ratna-hartien",
+    roles: ["Resource Ecosystem Orchestrator"],
+    description:
+      "Ratna Hartiningtyas bersama Angin Dampak Jaya, bekerja sebagai mitra strategis bagi pelaku usaha berdampak dalam menghadapi lanskap bisnis dan investasi berdampak di Indonesia. Berbasis di Jakarta dan Labuan Bajo, Angin mengembangkan jejaring, memberikan pendampingan strategis, serta menghubungkan founders dan investor dengan pengetahuan, relasi, dan modal yang dibutuhkan untuk mengembangkan inovasi menjadi usaha yang berkelanjutan. Dalam perannya, Ratna melihat pentingnya mendorong entrepreneurial mindset, bukan hanya sekadar menjadikan solusi sosial sebagai bisnis, tetapi menemukan mekanisme berbasis pasar agar inovasi dapat tumbuh tanpa sepenuhnya bergantung pada donor atau investor.\n\nDalam pandangannya, sumber daya ekosistem tidak hanya berupa modal, tetapi juga kapasitas, pengetahuan, dan peluang adopsi. Ia melihat inovator berdampak memiliki peran penting karena dapat menghadirkan solusi melalui mekanisme jual-beli yang lebih mandiri. Dukungan dari penyedia modal serta pihak yang membawa pengetahuan dan wawasan juga dinilai sangat penting, sementara akses terhadap pasar yang lebih sadar pada persoalan sosial-lingkungan masih menjadi tantangan. Karena itu, Ratna tertarik memperkuat relasi dengan organisasi dan komunitas yang bekerja di tingkat tapak serta mengembangkan praktik lintas sektor dan multi-peran yang dapat diuji bersama.",
+  },
+  {
+    id: 32,
+    name: "Rian Pramana Suwanda",
+    image: "/assets/ecosystem/profile/Rian Pramana Suwanda.png",
+    slug: "rian-pramana-suwanda",
+    roles: ["Adaptive Ecosystem Leader", "Collaborator Conductor"],
+    description:
+      "Rian Pramana Suwanda adalah birokrat dan akademisi yang mendorong pengarusutamaan Gender Equality, Disability, and Social Inclusion (GEDSI) melalui kolaborasi dengan Kelompok Perempuan dan Sumber-Sumber Kehidupan (KPS2K), pemerintah daerah, perguruan tinggi, masyarakat sipil, pemerintah desa, dan komunitas perempuan di Gresik dan Lumajang, Jawa Timur. Ia menjembatani aspirasi akar rumput dengan ruang kebijakan melalui forum perencanaan, kajian bersama, dan pendampingan kebijakan berbasis data. Kerja ekosistem ini turut memperkuat Sekolah Perempuan hingga direplikasi di berbagai desa melalui dukungan APBD dan APBDes, mendorong hadirnya Musrenbang Perempuan dan Anak, mengintegrasikan GEDSI dalam RPJMD selama tiga periode perencanaan, serta mengembangkan Indeks GEDSI yang diadopsi sebagai salah satu indikator kinerja pembangunan daerah.\n\nKetika ruang fiskal desa semakin terbatas akibat perubahan prioritas nasional, Rian mengubah strategi dari pendekatan berbasis program menjadi pendekatan berbasis sistem. Ia mendorong agar keberlanjutan GEDSI tidak bergantung pada donor, program, ataupun figur tertentu, tetapi melembaga melalui regulasi, perencanaan, penganggaran, dan tata kelola pemerintahan. Dengan menjadikan data, tujuan bersama, dan pembagian peran sebagai titik temu, ia mengorkestrasi pemerintah, perguruan tinggi, masyarakat sipil, desa, dan komunitas untuk saling melengkapi. Pendekatan ini membuat suara komunitas tidak berhenti sebagai aspirasi, tetapi bertransformasi menjadi kebijakan, indikator, penganggaran, dan mekanisme pembangunan yang tetap bertumbuh di tengah perubahan kebijakan dan keterbatasan sumber daya.",
+  },
+  {
+    id: 33,
+    name: "Rina Kusuma",
+    image: "/assets/ecosystem/profile/Network_Weaver_Rina_Kusuma.png",
+    slug: "rina-kusuma",
+    roles: ["Network Weaver", "Wellbeing Caregiver"],
+    description:
+      "Rina Kusuma terlibat dalam pengembangan Kawasan Gerakan Pembaharu (Kawasan Gaharu) bersama Ashoka Indonesia, sebuah ekosistem penggerak perubahan di tingkat lokal yang dibangun melalui pendekatan 100 Conversation untuk mendengarkan keresahan, memetakan aktor kunci, dan menemukan potensi keterhubungan di tiap kawasan. Proses ini berkembang menjadi Kawasan Gaharu di 10 provinsi, antara lain Lampung, Kalimantan Barat, Jawa Timur, Bandung, Bali, NTT, Ambon, dan Jakarta, sementara Makassar dan Medan masih dalam proses pengembangan. Melalui Workshop Co-Creation, check-in meeting bulanan, dan pendampingan bersama mentor, Rina turut membuka ruang perjumpaan lintas isu, sektor, dan generasi. Hubungan mulai menguat ketika para penggerak dapat saling berkomunikasi, berbagi informasi, dan membangun koneksi tanpa harus selalu difasilitasi Ashoka.\n\nPerawatan relasi menjadi bagian penting dari praktik tersebut. Setiap pertemuan diawali check-in question, sementara therapeutic art dan Case Clinic memberi ruang bagi penggerak untuk berbagi kerentanan, kegagalan, maupun kegelisahan. Rina melihat ruang aman sebagai bagian dari kemampuan ekosistem untuk bertahan dan beradaptasi, terlihat ketika peserta merasa lega setelah didengarkan dan berani menangis dalam proses therapeutic art. Ekosistem ini juga ditopang oleh beragam kontribusi, mulai dari para mentor pendamping dan penguatan kapasitas, dukungan sumber daya, hingga pengembangan kemampuan komunikasi. Pelatihan dan pendampingan komunikasi turut membuka ruang bagi cerita para penggerak lokal untuk menjangkau publik yang lebih luas. Tantangan yang masih dirasakan adalah mempertemukan lebih banyak sumber pengetahuan dan ruang, sekaligus membangun bahasa bersama agar berbagai kekuatan dalam ekosistem dapat lebih mudah terhubung.",
+  },
+  {
+    id: 34,
+    name: "Shendy Ristandi",
+    image:
+      "/assets/ecosystem/profile/Collaborator_Conductor_Shendy_Ristandi.png",
+    slug: "shendy-ristandi",
+    roles: ["Collaborator Conductor", "Community Spark Plug"],
+    description:
+      "Shendy Ristandi telah sekitar tujuh tahun berproses bersama Indorelawan, sebuah organisasi nirlaba yang fokus pada penguatan ekosistem kerelawanan melalui akses informasi, ruang aktivasi, dan kapasitas organisasi. Ia terlibat dalam community gathering yang membantu organisasi mengenali kebutuhan pengelolaan relawan, kemudian mendampingi mereka mengadopsi modul Manajemen Relawan 101 dan kerangka 6R. Praktik ini diterapkan, antara lain, oleh YB3 (Yayasan Bina Berdaya Bangsa) untuk mengelola relawan pendamping warga binaan dan SMSG (Semua Murid Semua Guru) dalam kegiatan Belajaraya. Bagi Shendy, perubahan mulai terlihat ketika organisasi tidak hanya mengikuti pelatihan, tetapi mampu menyesuaikan pengetahuan tersebut menjadi praktik dan mekanisme kerja mereka sendiri.\n\nDi Indorelawan, Shendy turut memfasilitasi Pawai Bebas Plastik, sebuah koalisi yang diinisiasi delapan organisasi dengan fokus isu dan kapasitas yang beragam. Ia membantu merancang kepemimpinan bergilir, pembagian peran, dashboard kerja, dan mekanisme pengambilan keputusan agar kerja bersama dapat berjalan dengan lebih teratur. Dari pengalaman ini, Shendy melihat bahwa kerja bersama tidak harus membagi porsi secara sama rata; setiap pihak dapat mengambil peran sesuai kapasitasnya dan saling melengkapi kekurangan. Hal serupa ia lihat dalam ekosistem kerelawanan, ketika organisasi mengadopsi dan menyesuaikan praktik pengelolaan relawan dengan konteks masing-masing. Bagi Shendy, tantangan yang masih dihadapi adalah terbatasnya akses terhadap sumber daya finansial serta menjaga agar kerelawanan tetap bertumpu pada relasi dan altruisme, di tengah kecenderungan yang semakin dipengaruhi exposure, keuntungan material, dan tren media sosial.",
+  },
+  {
+    id: 35,
+    name: "Syafira Putri",
+    image:
+      "/assets/ecosystem/profile/Resource_Ecosystem_Orchestrator_Syafira_Putri.png",
+    slug: "syafira-putri",
+    roles: ["Resource Ecosystem Orchestrator", "Network Weaver"],
+    description:
+      "Syafira Putri adalah bagian dari PLUS (Platform Usaha Sosial), sebuah capacity builder yang memperkuat ekosistem usaha sosial sekaligus mendampingi social enterprise, UMKM, dan NGO/CSO dalam membangun ketahanan keuangan, tata kelola, dan kapasitas internal. Melalui Innovation Lab, The Founder Lab, dan rencana Investment Lab, PLUS membangun ruang belajar dan pengembangan yang menghubungkan organisasi serta wirausaha sosial dengan mentor, praktisi, pengetahuan, jejaring, dan pilihan sumber pendanaan. Dengan pendekatan ini, dukungan dapat hadir dalam berbagai bentuk dan saling melengkapi, tidak hanya melalui pendanaan.\n\nBagi Syafira, salah satu kunci membangun koneksi adalah komunikasi yang setara dan terbuka: memastikan pihak-pihak yang terlibat memahami peran, memperoleh informasi yang sama, dan memiliki ruang untuk memberi masukan. Kepercayaan tumbuh melalui kolaborasi yang berulang, keterbukaan umpan balik, referral, dan koordinasi yang semakin lancar. Di sisi lain, ia melihat tantangan ekosistem usaha sosial masih berada pada silo pengetahuan dan kolaborasi lintas sektor, serta terbatasnya alternatif pendanaan bagi organisasi masyarakat sipil. Karena itu, PLUS berupaya mempertemukan organisasi masyarakat sipil, usaha sosial, sektor swasta, filantropi, akademisi, dan pemerintah agar pengetahuan, kapasitas, dan sumber daya dapat saling terhubung dan berkembang menjadi kerja bersama yang berkelanjutan.",
+  },
+  {
+    id: 36,
+    name: "Syekhoh Sultonah",
+    image: "/assets/ecosystem/profile/Syekhoh Sultonah.png",
+    slug: "syekhoh-sultonah",
+    roles: ["Adaptive Ecosystem Leader", "Network Weaver"],
+    description:
+      "Syekhoh Sultonah bergerak bersama Institut Hijau Indonesia (IHI) untuk menghimpun kekuatan anak muda dalam isu transisi energi dan demokrasi, dengan jangkauan hingga 36 provinsi di Indonesia. Bagi Syekhoh, kemampuan beradaptasi penting untuk menjaga gerakan tetap berjalan. Ketika rencana kolaborasi dengan salah satu kementerian dalam program transisi energi belum dapat dilanjutkan, ia bersama tim mengubah pendekatan dengan menggandeng organisasi yang memiliki visi sejalan untuk membangun simpul-simpul belajar di daerah. Program seperti Green Youth Movement dan YOU-RING kemudian menjadi ruang untuk melibatkan anak muda, alumni, dan kolaborator dalam gerakan melalui pengelolaan yang terbuka dan transparan.\n\nSyekhoh melihat ekosistem yang tangguh sebagai ekosistem yang mampu bangkit dan bergerak kembali ketika menghadapi perubahan atau kegagalan, dengan semangat dan inisiatif yang tidak terpusat pada satu pihak. Kepercayaan tumbuh melalui keterbukaan, rasa memiliki, dan dukungan terhadap kebutuhan masing-masing pihak. Berbagai pihak kemudian dapat menyumbang dengan cara yang berbeda, mulai dari penguatan kapasitas, arahan strategis, akses jejaring, pendanaan, hingga pengetahuan. Dalam perjalanan IHI, dukungan tersebut datang dari organisasi masyarakat sipil, tokoh gerakan, mitra, serta simpul belajar lokal. Di sisi lain, masih ada kebutuhan untuk memperkuat infrastruktur dan ruang di daerah serta memperbaiki tata kelola agar pembagian peran dengan jejaring lokal dapat berjalan lebih optimal.",
+  },
+  {
+    id: 37,
+    name: "Theresia Eko Setyowati (Eko)",
+    image:
+      "/assets/ecosystem/profile/Community_Spark_Plug_Theresia_Eko_Setyowati_(Eko).png",
+    slug: "theresia-eko-setyowati-eko",
+    roles: ["Community Spark Plug", "Wellbeing Caregiver"],
+    description:
+      "Theresia Eko Setyowati (Eko) mengembangkan Komunitas Empu Jamu Sragen sebagai ruang pemberdayaan ibu jamu, berangkat dari kerentanan yang ia temui selama pandemi. Ia memulai dengan mendatangi dan berbincang dengan ibu-ibu jamu di sekitar tempat tinggalnya, kemudian mengajak mereka berkumpul untuk mengidentifikasi potensi, permasalahan yang dihadapi ibu jamu, berbagi pengetahuan tentang higienitas, kualitas jamu, dan kesehatan. Dari beberapa pertemuan awal, terbentuk kelompok-kelompok ibu jamu yang kemudian menjalankan kegiatan bersama, seperti fashion show di kebun dan pematang sawah, pelatihan kepemimpinan perempuan, pelatihan ecoprint, pelatihan menulis, pencatatan keuangan / literasi keuangan, berkebun, pengembangan produk turunan jamu, serta perpustakaan komunitas. Jejaringnya juga terhubung dengan komunitas Empu Jamu di kota lain (Jejaring Empu Jamu Nusantara), termasuk Sumenep, melalui pertemuan daring dan pertukaran pengetahuan.\n\nEko melihat kekuatan komunitas tumbuh dari rasa saling menguatkan, menghargai, dan aman untuk berbagi. Ruang pertemuan dijaga agar persoalan pribadi dapat disampaikan tanpa menjadi gosip, sementara kegiatan bersama membantu membangun kepercayaan diri dan kedekatan antara anggota. Ekosistem ini ditopang oleh beragam kontribusi, mulai dari pengetahuan, jejaring, akses ke BPOM, tanaman, lahan, hingga dukungan kebutuhan kegiatan. Di sisi lain, pilihan untuk tetap menjadi komunitas tanpa badan hukum membuat akses terhadap sebagian dukungan menjadi terbatas karena adanya prasyarat legal. Eko ingin memperluas akses terhadap pengetahuan dan dukungan yang dapat menguatkan komunitas dengan prinsip-prinsip kesetaraan, keadilan, kejujuran, gotong royong, transparan dan pengelolaan bersama.",
+  },
+  {
+    id: 38,
+    name: "Tisha Amelia Anwar",
+    image:
+      "/assets/ecosystem/profile/Movement_Connector_Tisha_Amelia_Anwar.png",
+    slug: "tisha-amelia-anwar",
+    roles: ["Movement Connector", "Narrative Weaver & Sensemaker"],
+    description:
+      "Tisha Amelia Anwar bekerja bersama Common Room untuk memperluas akses digital, literasi, pendidikan, dan kesehatan bagi komunitas di wilayah 3T, sekaligus mendorong pengakuan terhadap internet komunitas dalam kebijakan transformasi digital. Jangkauan ekosistem meliputi Sukabumi, Pulo Aceh, Maros, Lombok Utara, Sumba Barat Daya, Maluku Utara, Kalimantan Barat, Mentawai, dan Buleleng. Beragam pengalaman dan kebutuhan komunitas dibawa ke dialog kebijakan, konsultasi multi pihak, serta pertemuan dengan pemerintah dan pemangku kepentingan. Pembelajaran dari proses tersebut kemudian diolah menjadi buku, modul, panduan, dan materi komunikasi yang dapat dibagikan serta dipelajari oleh komunitas lain.\n\nTisha melihat ekosistem tumbuh ketika pengalaman lokal dapat bertemu dengan jejaring dan dukungan yang lebih luas. Banyak pihak menjadi bagian penting dalam gerakan memperluas akses digital serta pengakuan terhadap internet komunitas. Komunitas lokal, pengelola internet komunitas, dan jejaring Rembuk Nusa menjadi sumber pengalaman dan pembelajaran dari lapangan. Sementara itu, mitra pendukung turut membuka akses pada pendanaan, penguatan kapasitas, pengetahuan, jejaring global, serta ruang untuk mengembangkan Sekolah Internet Komunitas, riset, advokasi kebijakan, dan pemanfaatan teknologi. Tantangan yang masih ia lihat adalah koordinasi lintas sektor dan belum kuatnya dukungan kebijakan bagi internet komunitas, sehingga hubungan dengan pemerintah dan pemangku kepentingan perlu terus dirawat agar pengalaman komunitas dapat memperoleh ruang yang lebih kuat dalam pembahasan kebijakan.",
+  },
+  {
+    id: 39,
+    name: "Widya Anggraini",
+    image: "/assets/ecosystem/profile/Network_Weaver_Widya_Anggraini.png",
+    slug: "widya-anggraini",
+    roles: ["Network Weaver", "Narrative Weaver & Sensemaker"],
+    description:
+      "Widya Anggraini telah lebih dari 10 tahun mendukung kerja KEMITRAAN dalam mendorong pengakuan dan perlindungan masyarakat adat, dengan bekerja bersama 8 CSO lokal di 6 provinsi serta mendampingi langsung komunitas melalui pendekatan GEDSI. Ia merajut jejaring dengan mempertemukan kebutuhan dan kapasitas yang berbeda, misalnya menghubungkan Gayatri Center milik PPSW Jakarta dengan mitra di Sumba Timur untuk penguatan keuangan dan koperasi, mempertemukan mitra pengusung hutan adat dengan pemerintah, serta membuka ruang belajar bersama bagi perempuan adat dari berbagai wilayah. Jejaring ini juga diperluas ke Bappenas dan Kemendagri untuk membawa isu masyarakat adat ke dalam perencanaan pembangunan.\n\nDalam mendokumentasikan pembelajaran, Widya membangun diskusi rutin bersama mitra dan mendorong fasilitator lapangan serta kader komunitas untuk menuliskan pengalaman, termasuk hal-hal yang belum berhasil. Cerita kemudian dibahas, dipilih tema utamanya, dan dikurasi bersama hingga menjadi pengetahuan yang dapat dipelajari kembali. Ia melihat ekosistem tumbuh ketika kapasitas, pengetahuan, akses, dan jejaring dapat saling melengkapi, sementara berbagai pihak berkontribusi sesuai perannya, mulai dari penguatan kapasitas dan pengetahuan, dukungan sumber daya, hingga membuka akses ke ruang kebijakan. Tantangan yang masih dirasakan adalah terbatasnya dukungan sumber daya yang fleksibel serta isu masyarakat adat yang masih sering berada dalam lingkaran yang relatif terbatas, sehingga perlu lebih banyak jembatan dengan gerakan dan sektor lain.",
+  },
+  {
+    id: 40,
+    name: "Wilda Romadona",
+    image: "/assets/ecosystem/profile/Network_Weaver_Wilda_Romadona.png",
+    slug: "wilda-romadona",
+    roles: ["Network Weaver", "Resource Ecosystem Orchestrator"],
+    description:
+      "Wilda Romadona bersama Krealogi dan Yayasan Karya Dua Anyam memperkuat ekosistem kewirausahaan yang inklusif bagi perempuan dan pelaku UMKM, dengan jangkauan kerja di NTT, Kalimantan Barat, dan Jawa Timur. Jejaring dibangun dengan mempertemukan kebutuhan dan sumber daya lintas pihak, melalui komunikasi terbuka, pembagian peran yang jelas, dan posisi sebagai fasilitator yang tidak mendominasi. Dalam praktiknya, ruang kolaborasi dirancang agar mitra dapat saling berbagi pengetahuan, akses, dan peluang; sementara kebutuhan komunitas dipetakan melalui diskusi, wawancara, dan forum bersama untuk kemudian diterjemahkan menjadi pelatihan, pendampingan, maupun kolaborasi.\n\nSumber daya dalam ekosistem tidak dilihat hanya sebagai pendanaan. Bagi Wilda, beragam sumber daya, seperti keahlian mentor, relawan, jaringan mitra, fasilitas pelatihan, media publikasi, dan pertukaran pengetahuan, penting untuk dihubungkan dan dimanfaatkan bagi kepentingan bersama, sehingga dukungan bagi ekosistem dapat hadir dari berbagai pihak. Komunitas dampingan dan perempuan wirausaha menjadi sumber pembelajaran utama, sementara mentor, organisasi mitra, pemerintah daerah, institusi pendidikan, sektor swasta, dan filantropi turut menyediakan kapasitas, akses, peluang, maupun sumber daya. Tantangan yang masih dirasakan adalah sekat lintas sektor dan belum meratanya akses terhadap pasar, pendampingan, serta dukungan jangka panjang, terutama bagi perempuan pelaku UMKM di wilayah dengan akses terbatas.",
+  },
+  {
+    id: 41,
+    name: "Yohanes Daris Adibrata (JJ Adibrata)",
+    image:
+      "/assets/ecosystem/profile/Network_Weaver_Yohanes_Daris_Adibrata_(JJ Adibrata).png",
+    slug: "yohanes-daris-adibrata-jj-adibrata",
+    roles: ["Network Weaver"],
+    description:
+      "Yohanes Daris Adibrata atau JJ Adibrata adalah salah seorang penggerak GUDSKUL, ruang untuk membangun ekosistem seni rupa kontemporer yang lebih terkoneksi dan berkelanjutan, dengan basis pengetahuan, praktik artistik, dan ekonomi mandiri berbasis kolektif. Dari Jakarta Selatan, ia menginisiasi lahirnya kolektif seni melalui program studi kolektif seni rupa kontemporer, yang kemudian membentuk jejaring di beberapa lokalitas di Indonesia dan terhubung hingga tingkat internasional. Relasi dalam jejaring tersebut dirawat melalui majelis, ruang berkumpul bagi anggota untuk berbagi cerita, gagasan, dan rencana. Pertemuan rutin bulanan menjadi salah satu cara menjaga komunikasi sekaligus membuka ruang bagi anggota untuk menyampaikan kondisi dan kebutuhannya.\n\nJJ melihat ekosistem tumbuh ketika hubungan antar pihak dibangun dengan kepercayaan, sementara setiap pihak dapat berkontribusi sesuai kapasitasnya. Klien, pemerintah, dan organisasi mitra menjadi pihak yang ia sebut paling banyak menopang perjalanan ekosistem, sementara kontribusi lainnya hadir melalui penguatan kapasitas, ruang, sumber daya, dan pengetahuan. Tantangan yang masih ia rasakan adalah membangun komunikasi dan trust, terutama untuk membuka kolaborasi lintas bidang dan sektor serta memperkuat akses terhadap pasar dan sumber daya finansial.",
+  },
+];
+
+export function getEcosystemBuilderBySlug(
+  slug: string,
+): EcosystemBuilder | undefined {
+  return ecosystemBuilders.find((builder) => builder.slug === slug);
+}
