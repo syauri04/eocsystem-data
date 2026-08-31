@@ -40,9 +40,9 @@ export const ecosystemBuilders: EcosystemBuilder[] = [
   },
   {
     id: 5,
-    name: "Aris Munandar ",
+    name: "Aris Munandar",
     image: "/assets/ecosystem/profile/Community_Spark_Plug_Aris_Munandar.png",
-    slug: "aris-munandar ",
+    slug: "aris-munandar",
     roles: ["Community Spark Plug", "Network Weaver"],
     description:
       "Aris Munandar aktif di Gerakan Advokasi Difabel Lintas Iman (GARDA LIMA) dan tahun ini akan memperluas jangkauan dengan mengadakan Religious Leaders Innovative Summit (RILIS) melalui Pusat Rehabilitasi YAKKUM di Daerah Istimewa Yogyakarta, dengan jejaring kerja yang terhubung dengan pemuka agama dan organisasi keagamaan di tingkat nasional, yang berfokus pada penerimaan difabel di ranah spiritual serta pemenuhan hak penyandang disabilitas. Ia membangun dan memperluas jejaring dengan pemuka agama, komunitas agama, dan penghayat kepercayaan dengan membawa persoalan difabel, data, serta sumber daya yang tersedia ke dalam ruang diskusi. Ia juga mendorong pemahaman bahwa setiap orang dekat dan berisiko menjadi difabel. Proses ini telah melibatkan tujuh perwakilan pemuka dan komunitas agama serta penghayat kepercayaan dalam GARDA LIMA dan RILIS yang akan datang, serta diwujudkan melalui pertemuan dan forum yang mempertemukan difabel maupun pegiat lokal dengan berbagai komunitas keagamaan.\n\nBagi Aris, jejaring dibangun melalui komunikasi dan ruang pertemuan yang memungkinkan berbagai pihak memahami isu difabel dan menemukan ruang untuk terlibat. Ia melihat kekuatan ekosistem tumbuh dari kontribusi yang berbeda: Komisi Nasional Disabilitas (KND) dan PBNU mendukung finalisasi Fikih Disabilitas Mental Psikososial yang kemudian menjadi rujukan, sementara PGI menyuarakan isu melalui Konsultasi Nasional (KONAS) “Gereja dan Disabilitas”. Dukungan juga datang dari berbagai organisasi keagamaan yang terlibat dalam Deklarasi Lombok Bersama YAKKUM. Pada tingkat lokal Yogyakarta forum-forum lokal cukup intens diadakan guna mempertemukan lintas komunitas. Aris percaya bahwa keterhubungan berbagai pihak ini penting agar isu difabel dapat dibicarakan dan diperkuat dari beragam ruang, sementara tantangan ke depan adalah memperluas keterlibatan yang lahir dari kepedulian, bukan hanya karena kebutuhan program.",
